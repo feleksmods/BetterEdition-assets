@@ -1,0 +1,123 @@
+{
+	Template: [
+		{
+			TAG: "NEWS_DE",
+			BG_IMG: "newsDE_Event.png",
+			DEFAULT_IMG: "newsDE_Default.png",
+			
+			imgPosX: 25,
+			imgPosY: 125,
+			imgWidth: 449,
+			imgHeight: 168,
+			
+			titlePosX: 24,
+			titlePosY: 295,
+			titleWidth: 450,
+			titleHeight: 46,
+			titleColor: [ 44, 44, 44 ],
+			
+			descPosX: 24,
+			descPosY: 327,
+			descWidth: 450,
+			descColor: [ 150, 150, 150 ],
+			
+			BUTTON_IMG: "newsDE_Button.png",
+			btnPosX: 40,
+			btnPosY: 559,
+			btnWidth: 418,
+			btnHeight: 46,
+			nextButtonBelow: false,
+			btnColor: [ 44, 44, 44 ],
+		},
+		{
+			TAG: "HOI4_COLDWAR",
+			BG_IMG: "hoi4_coldwar.png",
+			DEFAULT_IMG: "newsDE_Button.png",
+			
+			imgPosX: 0,
+			imgPosY: 0,
+			imgWidth: 0,
+			imgHeight: 0,
+			
+			titlePosX: 65,
+			titlePosY: 60,
+			titleWidth: 570,
+			titleHeight: 45,
+			titleColor: [ 35, 35, 35 ],
+			
+			descPosX: 65,
+			descPosY: 115,
+			descWidth: 570,
+			descColor: [ 50, 50, 50 ],
+			
+			BUTTON_IMG: "hoi4_button_brown.png",
+			btnPosX: 300,
+			btnPosY: 300,
+			btnWidth: 355,
+			btnHeight: 32,
+			nextButtonBelow: true,
+			btnColor: [ 220, 220, 220 ],
+		},
+		{
+			TAG: "HOI4_WORLD_NEWS",
+			BG_IMG: "hoi4.png",
+			DEFAULT_IMG: "newsDE_Default.png",
+			
+			imgPosX: 50,
+			imgPosY: 125,
+			imgWidth: 595,
+			imgHeight: 220,
+			
+			titlePosX: 60,
+			titlePosY: 375,
+			titleWidth: 575,
+			titleHeight: 50,
+			titleColor: [ 35, 35, 35 ],
+			
+			descPosX: 60,
+			descPosY: 440,
+			descWidth: 575,
+			descColor: [ 50, 50, 50 ],
+			
+			BUTTON_IMG: "hoi4_button_news.png",
+			btnPosX: 70,
+			btnPosY: 645,
+			btnWidth: 555,
+			btnHeight: 38,
+			nextButtonBelow: true,
+			btnColor: [ 220, 220, 220 ],
+		},
+		{
+			TAG: "HOI4_SUPER_EVENT",
+			BG_IMG: "super_event_hoi4.png",
+			DEFAULT_IMG: "newsDE_Default.png",
+			
+			imgPosX: 430,
+			imgPosY: 140,
+			imgWidth: 500,
+			imgHeight: 320,
+			
+			titlePosX: 220,
+			titlePosY: 55,
+			titleWidth: 530,
+			titleHeight: 45,
+			titleColor: [ 35, 35, 35 ],
+			
+			descPosX: 55,
+			descPosY: 140,
+			descWidth: 330,
+			descColor: [ 50, 50, 50 ],
+			
+			BUTTON_IMG: "hoi4_button_brown.png",
+			btnPosX: 55,
+			btnPosY: 535,
+			btnWidth: 330,
+			btnHeight: 34,
+			nextButtonBelow: true,
+			btnColor: [ 220, 220, 220 ],
+		}
+	],
+	
+	Age_of_History_Definitive_Edition: Templates
+}
+
