@@ -828,7 +828,8 @@
 			DEFENSE_BONUS: 5,
 			
 			CAN_BECOME_CIVILIZED: -1,
-			CIVILIZE_TECH_LEVEL: 2.0f,
+			CIVILIZE_TECH_LEVEL: 2.0f,oot,
+
 			AVAILABLE_SINCE_AGE_ID: 0,
 			
 			DESC: "DAbsoluteMonarchy",
