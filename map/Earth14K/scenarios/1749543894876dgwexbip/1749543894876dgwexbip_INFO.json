@@ -1,0 +1,15 @@
+{
+"Age_of_Civilizations": "Data",
+"Data_Scenario_Info": [
+	{
+		"Name": "257 BC",
+		"Author": "Łukasz Jakowski",
+		"Wiki": "Age of History 2: Definitive Edition",
+		"Civs": 34,
+		"Age": 1,
+		"Year": -257,
+		"Month": 10,
+		"Day": 23
+	}
+]
+}

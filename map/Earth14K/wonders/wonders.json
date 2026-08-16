@@ -1,0 +1,367 @@
+{
+	wonders:
+	[
+		{
+			Name: "AngkorWat",
+			x: 13408,
+			y: 4284,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "wat.png",
+			Wiki: "Angkor_Wat"
+		},
+		{
+			Name: "ChichenItza",
+			x: 4016,
+			y: 3936,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "itza.png",
+			Wiki: "Chichen_Itza"
+		},
+		{
+			Name: "ChristTheRedeemer",
+			x: 6795,
+			y: 6256,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "redeemer.png",
+			Wiki: "Christ_the_Redeemer_(statue)"
+		},
+		{
+			Name: "ColossusOfRhodes",
+			x: 9716,
+			y: 3031,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "Colossus.png",
+			Wiki: "Colossus_of_Rhodes"
+		},
+		{
+			Name: "GreatMosqueOfDjenne",
+			x: 8136,
+			y: 4316,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "Great_Mosque.png",
+			Wiki: "Great_Mosque_of_Djenne"
+		},
+		{
+			Name: "HimejiCastle",
+			x: 14917,
+			y: 3122,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "Himeji.png",
+			Wiki: "Himeji_Castle"
+		},
+		{
+			Name: "Moai",
+			x: 3086,
+			y: 6370,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "moai.png",
+			Wiki: "Moai"
+		},
+		{
+			Name: "PyramidsOfGiza",
+			x: 9861,
+			y: 3405,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "piramid.png",
+			Wiki: "Egyptian_pyramids"
+		},
+		{
+			Name: "Stonehenge",
+			x: 8245,
+			y: 2012,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "stonehenge.png",
+			Wiki: "Stonehenge"
+		},
+		{
+			Name: "Parthenon",
+			x: 9506,
+			y: 2933,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "Parthenon.png",
+			Wiki: "Parthenon"
+		},
+		{
+			Name: "Pharos of Alexandria",
+			x: 9811,
+			y: 3330,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "pharos.png",
+			Wiki: "Lighthouse_of_Alexandria"
+		},
+		{
+			Name: "TajMahal",
+			x: 12138,
+			y: 3558,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "taj_mahal.png",
+			Wiki: "Taj_Mahal"
+		},
+		{
+			Name: "TempleOfConfucius",
+			x: 14010,
+			y: 2813,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "confucius.png",
+			Wiki: "Temple_of_Confucius"
+		},
+		{
+			Name: "Tenochtitlan",
+			x: 3490,
+			y: 4030,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "tenochtitlan.png",
+			Wiki: "Tenochtitlan"
+		},
+		{
+			Name: "Tikal",
+			x: 3944,
+			y: 4139,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "tikal.png",
+			Wiki: "Tikal"
+		},
+		{
+			Name: "WinterPalace",
+			x: 9823,
+			y: 1268,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "WinterPalace.png",
+			Wiki: "Winter_Palace"
+		},
+		{
+			Name: "CologneCathedral",
+			x: 8679,
+			y: 2030,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "CologneCathedral.png",
+			Wiki: "Cologne_Cathedral"
+		},
+		{
+			Name: "MilanCathedral",
+			x: 8788,
+			y: 2437,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "MilanCathedral.png",
+			Wiki: "Milan_Cathedral"
+		},
+		{
+			Name: "MalborkCastle",
+			x: 9280,
+			y: 1793,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "MalborkCastle.png",
+			Wiki: "Malbork_Castle"
+		},
+		{
+			Name: "PalaceOfVersailles",
+			x: 8442,
+			y: 2200,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "PalaceOfVersailles.png",
+			Wiki: "Palace_of_Versailles"
+		},
+		{
+			Name: "WhiteHouse",
+			x: 4566,
+			y: 2893,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "WhiteHouse.png",
+			Wiki: "White_House"
+		},
+		{
+			Name: "ElEscorial",
+			x: 8157,
+			y: 2770,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "ElEscorial.png",
+			Wiki: "El_Escorial"
+		},
+		{
+			Name: "Borobudur",
+			x: 13742,
+			y: 5407,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "Borobudur.png",
+			Wiki: "Borobudur"
+		},
+		{
+			Name: "Kronborg",
+			x: 8950,
+			y: 1624,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "Kronborg.png",
+			Wiki: "Kronborg"
+		},
+		{
+			Name: "ArgeBam",
+			x: 11182,
+			y: 3447,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "ArgeBam.png",
+			Wiki: "Arg-e_Bam"
+		},
+		{
+			Name: "Kremlin",
+			x: 10183,
+			y: 1647,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "Kremlin.png",
+			Wiki: "Kremlin"
+		},
+		{
+			Name: "Colosseum",
+			x: 8959,
+			y: 2681,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "Colosseum.png",
+			Wiki: "Colosseum"
+		},
+		{
+			Name: "ShwedagonPagoda",
+			x: 13057,
+			y: 4074,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "ShwedagonPagoda.png",
+			Wiki: "Shwedagon_Pagoda"
+		},
+		{
+			Name: "Bagan",
+			x: 12925,
+			y: 3880,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "Bagan.png",
+			Wiki: "Bagan"
+		},
+		{
+			Name: "Jokhang",
+			x: 12791,
+			y: 3423,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "Jokhang.png",
+			Wiki: "Jokhang"
+		},
+		{
+			Name: "Petra",
+			x: 10097,
+			y: 3379,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "Petra.png",
+			Wiki: "Petra"
+		},
+		{
+			Name: "HagiaSophia",
+			x: 9752,
+			y: 2736,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "HagiaSophia.png",
+			Wiki: "Hagia_Sophia"
+		},
+		{
+			Name: "Alhambra",
+			x: 8177,
+			y: 2980,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "Alhambra.png",
+			Wiki: "Alhambra"
+		},
+		{
+			Name: "MachuPicchu",
+			x: 4792,
+			y: 5738,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "MachuPicchu.png",
+			Wiki: "Machu_Picchu"
+		},
+		{
+			Name: "RoyalPalaceOfCaserta",
+			x: 9055,
+			y: 2739,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "RoyalPalaceOfCaserta.png",
+			Wiki: "Royal_Palace_of_Caserta"
+		},
+		{
+			Name: "EdinburghCastle",
+			x: 8185,
+			y: 1626,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "EdinburghCastle.png",
+			Wiki: "Edinburgh_Castle"
+		},
+		{
+			Name: "PalaceOfWestminster",
+			x: 8342,
+			y: 1982,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "PalaceOfWestminster.png",
+			Wiki: "Palace_of_Westminster"
+		},
+		{
+			Name: "BasilicaDiSanNicola",
+			x: 9173,
+			y: 2733,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "BasilicaDiSanNicola.png",
+			Wiki: "Basilica_di_San_Nicola"
+		},
+		{
+			Name: "MontSaintMichel",
+			x: 8325,
+			y: 2162,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "MontSaintMichel.png",
+			Wiki: "Mont-Saint-Michel"
+		},
+		{
+			Name: "GyeongbokgungPalace",
+			x: 14531,
+			y: 2954,
+			SinceYear: -10000,
+			UntilYear: 100000,
+			Image: "GyeongbokgungPalace.png",
+			Wiki: "Gyeongbokgung"
+		},
+	],
+	
+	name: Earth
+}

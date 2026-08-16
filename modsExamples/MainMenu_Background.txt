@@ -1,0 +1,8 @@
+You can add new main menu backgrounds to
+UI/background/
+
+The image files should be named 0.png, 1.png, and so on.
+
+Number of images to load randomly:
+PC: numberOfImages.txt
+Mobile: numberOfImages_Not_PC.txt

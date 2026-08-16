@@ -1,0 +1,42 @@
+Special Flags for Vassals
+You can create special flags for Civilizations when they become vassals of another Civilization.
+
+For example, if France is a vassal of Germany:
+France’s tag: fra
+Germany’s tag: ger
+
+The special flag file will be named:
+fra-ger.png
+
+Do not include any government-specific extra tags in the file name.
+
+Another example:
+
+rus-pol.png
+
+This flag will be used when Russia is a vassal of Poland, provided the file exists in the game files.
+
+
+#############
+
+Special Flags for Vassals
+You can add special flags that appear when one Civilization becomes a vassal of another.
+
+Step 1: Identify civilization tags
+Each civilization has a unique tag.
+
+France: fra
+Germany: ger
+
+Step 2: Name the flag file
+
+Use the following format:
+
+vassalTAG-overlordTAG.png
+
+Example:
+If France is a vassal of Germany, name the file:
+
+fra-ger.png
+
+Do not include government or extra tags in the file name.

@@ -1,0 +1,11 @@
+{
+	cities:
+	[
+		{
+			Name: "CITY 2",
+			x: 1978,
+			y: 1099
+		},
+	],
+	name: Earth
+}

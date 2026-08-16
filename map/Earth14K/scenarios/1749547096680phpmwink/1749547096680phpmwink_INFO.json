@@ -1,0 +1,15 @@
+{
+"Age_of_Civilizations": "Data",
+"Data_Scenario_Info": [
+	{
+		"Name": "RussianFeudalism",
+		"Author": "Łukasz Jakowski",
+		"Wiki": "Age of History 2: Definitive Edition",
+		"Civs": 75,
+		"Age": 3,
+		"Year": 1276,
+		"Month": 3,
+		"Day": 9
+	}
+]
+}

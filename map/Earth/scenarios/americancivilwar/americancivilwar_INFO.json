@@ -1,0 +1,15 @@
+{
+"Age_of_Civilizations": "Data",
+"Data_Scenario_Info": [
+	{
+		"Name": "American Civil War",
+		"Author": "Lukasz Jakowski",
+		"Wiki": "American_Civil_War",
+		"Civs": 2,
+		"Age": 7,
+		"Year": 1861,
+		"Month": 4,
+		"Day": 12
+	}
+]
+}

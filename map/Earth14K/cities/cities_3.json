@@ -1,0 +1,12 @@
+{
+	cities:
+	[
+		{
+	Name: "Narsaq",
+	x: 6083,
+	y: 1275,
+	p: 968
+},
+	],
+	name: Earth
+}

@@ -1,0 +1,121 @@
+{
+	mountains:
+	[
+		{
+			Name: "Chimborazo",
+			Elevation: 6263,
+			x: 1118,
+			y: 1660,
+		},
+		{
+			Name: "Pico Cristóbal Colón",
+			Elevation: 5700,
+			x: 1180,
+			y: 1498
+		},
+		{
+			Name: "Roraima",
+			Elevation: 2810,
+			x: 1339,
+			y: 1575,
+		},
+		{
+			Name: "Pico Bolívar",
+			Elevation: 4978,
+			x: 1213,
+			y: 1524,
+		},
+		{
+			Name: "Huascarán",
+			Elevation: 6768,
+			x: 1143,
+			y: 1769,
+		},
+		{
+			Name: "Illampu",
+			Elevation: 6368,
+			x: 1239,
+			y: 1846,
+		},
+		{
+			Name: "Gerlach",
+			Elevation: 2655,
+			x: 2335,
+			y: 929,
+		},
+		{
+			Name: "Aneto",
+			Elevation: 3404,
+			x: 2098,
+			y: 1036,
+		},
+		{
+			Name: "Matterhorn",
+			Elevation: 4478,
+			x: 2182,
+			y: 984,
+		},
+		{
+			Name: "Carnic Alps",
+			Elevation: 2782,
+			x: 2245,
+			y: 974,
+		},
+		{
+			Name: "Mont Blanc",
+			Elevation: 4810,
+			x: 2171,
+			y: 986,
+		},
+		{
+			Name: "Llullaillaco",
+			Elevation: 6723,
+			x: 1249,
+			y: 1973,
+		},
+		{
+			Name: "Pedra da Mina",
+			Elevation: 2798,
+			x: 1535,
+			y: 1937,
+		},
+		{
+			Name: "Ojos del Salado",
+			Elevation: 6893,
+			x: 1239,
+			y: 2012,
+		},
+		{
+			Name: "Aconcagua",
+			Elevation: 6961,
+			x: 1226,
+			y: 2091,
+		},
+		{
+			Name: "Mount Usborne",
+			Elevation: 705,
+			x: 1360,
+			y: 2433,
+		},
+		{
+			Name: "Mount Paget",
+			Elevation: 2935,
+			x: 1622,
+			y: 2489,
+		},
+		{
+			Name: "Nevado Sajama",
+			Elevation: 6542,
+			x: 1238,
+			y: 1886,
+		},
+		{
+			Name: "Mount Everest",
+			Elevation: 8848,
+			x: 3149,
+			y: 1264,
+		},
+	],
+	
+	name: Earth
+}

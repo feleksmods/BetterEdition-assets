@@ -1,0 +1,8 @@
+{
+	Name: "New Scenario",
+	Description: "A new Scenario for Age of History 2: Definitive Edition",
+	
+	Tags: [ "Scenario" ],
+	
+	ChangeNote: "First release",
+}

@@ -1,0 +1,8 @@
+It will be possible to create and use custom event templates, such as the newspaper style.
+The template is empty by default. In EventTemplates.json, you can define a custom background for each template (e.g., a newspaper layout), a default image if none is specified for an event, button image, as well as the positions of the title, description, and buttons.
+Here is a mod example showing how to do it: https://steamcommunity.com/sharedfiles/filedetails/?id=3689505731
+In EventTemplates.json, you can add multiple templates, and the game will read and load EventTemplates.json files from all mods.
+The file path for EventTemplates.json is: UI/events/templates/EventTemplates.json
+When creating an event, you can choose which template will be used either the default one or a custom template.
+You can use multiple templates for different events.
+https://www.youtube.com/watch?v=SUTjaphGwAw

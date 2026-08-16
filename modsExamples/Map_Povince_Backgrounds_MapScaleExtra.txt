@@ -1,0 +1,1 @@
+While editing province backgrounds in the map’s config.json, the value of MapScaleExtra must be set to 1.0.

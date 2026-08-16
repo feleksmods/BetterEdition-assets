@@ -1,0 +1,14 @@
+{
+"Age_of_Civilizations": "Data",
+"Data_Scenario_Info": [
+	{
+		"Name": "Test",
+		"Author": "Test",
+		"Wiki": "Age of History 2: Definitive Edition",
+		"Civs": 2,
+		"Year": -5000,
+		"Month": 5,
+		"Day": 15
+	}
+]
+}

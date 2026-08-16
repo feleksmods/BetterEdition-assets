@@ -1,0 +1,15 @@
+{
+"Age_of_Civilizations": "Data",
+"Data_Scenario_Info": [
+	{
+		"Name": "Three Kingdoms",
+		"Author": "Łukasz Jakowski",
+		"Wiki": "Three_Kingdoms",
+		"Civs": 3,
+		"Age": 1,
+		"Year": 238,
+		"Month": 10,
+		"Day": 12
+	}
+]
+}

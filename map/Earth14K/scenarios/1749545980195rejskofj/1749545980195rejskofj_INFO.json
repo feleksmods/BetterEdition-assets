@@ -1,0 +1,15 @@
+{
+"Age_of_Civilizations": "Data",
+"Data_Scenario_Info": [
+	{
+		"Name": "Heptarchy",
+		"Author": "Łukasz Jakowski",
+		"Wiki": "Age of History 2: Definitive Edition",
+		"Civs": 55,
+		"Age": 2,
+		"Year": 546,
+		"Month": 2,
+		"Day": 10
+	}
+]
+}

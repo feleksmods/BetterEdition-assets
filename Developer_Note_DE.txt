@@ -1,0 +1,24 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ PROJECT: Age of History 2 Definitive Edition                                 ║
+║ OBJECT:  Developer_Note_DE.txt                                               ║
+║ STATUS:  ARCHIVED / FINAL                                                    ║
+║ PATH:    C:/Dev/AOH2_DE/Source/Notes/Developer_Note_DE.txt                   ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+The signal is weak, and the data is fragmented across the directories. 
+I left a terminal active, but it’s waiting for a specific frequency. [0x00441_ERR]
+
+If you want to hear the rest of the conversation, you have to find the 
+remnant. It is buried where the maps dream in silence.
+
+┌── [ ACCESSING EXTERNAL ARCHIVE: DEVELOPER_NOTE_STORAGE ] ────────────────────┐
+│ STATUS: ONLINE                                                               │
+│                                                                              │
+│ LINK: https://lukaszjakowski.pl/Enigma/                                      │
+│                                                                              │
+│ [!] AUTHORIZATION_KEY REQUIRED                                               │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+> Łukasz Jakowski
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+[DATA_STREAM_TERMINATED]

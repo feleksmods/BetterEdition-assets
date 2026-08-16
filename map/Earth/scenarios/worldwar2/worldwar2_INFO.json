@@ -1,0 +1,15 @@
+{
+"Age_of_Civilizations": "Data",
+"Data_Scenario_Info": [
+	{
+		"Name": "WorldWarII",
+		"Author": "Lukasz Jakowski",
+		"Wiki": "World_War_II",
+		"Civs": 87,
+		"Age": 8,
+		"Year": 1936,
+		"Month": 6,
+		"Day": 1
+	}
+]
+}

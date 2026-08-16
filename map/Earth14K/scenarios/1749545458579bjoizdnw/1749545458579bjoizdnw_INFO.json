@@ -1,0 +1,15 @@
+{
+"Age_of_Civilizations": "Data",
+"Data_Scenario_Info": [
+	{
+		"Name": "ThirtyYearsWar",
+		"Author": "Łukasz Jakowski",
+		"Wiki": "Age of History 2: Definitive Edition",
+		"Civs": 576,
+		"Age": 4,
+		"Year": 1618,
+		"Month": 1,
+		"Day": 10
+	}
+]
+}

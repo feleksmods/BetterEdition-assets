@@ -1,0 +1,39 @@
+{
+	Data: [
+		{
+			Name: "BattleTacticBalanced",
+			ATTACK_MODIFIER: 0.0,
+			DEFENSE_MODIFIER: 0.0,
+		},
+		{
+			Name: "BattleTacticCautiousAdvance",
+			ATTACK_MODIFIER: 15.0,
+			DEFENSE_MODIFIER: -15.0,
+		},
+		{
+			Name: "BattleTacticDefensiveFormation",
+			ATTACK_MODIFIER: -15.0,
+			DEFENSE_MODIFIER: 15.0,
+		},
+		{
+			Name: "BattleTacticAggressiveAssault",
+			ATTACK_MODIFIER: 30.0,
+			DEFENSE_MODIFIER: -30.0,
+		},
+		{
+			Name: "BattleTacticFortifiedLines",
+			ATTACK_MODIFIER: -30.0,
+			DEFENSE_MODIFIER: 30.0,
+		},
+		{
+			Name: "BattleTacticAllOutOffensive",
+			ATTACK_MODIFIER: 50.0,
+			DEFENSE_MODIFIER: -50.0,
+		},
+		{
+			Name: "BattleTacticDeepDefense",
+			ATTACK_MODIFIER: -50.0,
+			DEFENSE_MODIFIER: 50.0,
+		},
+	],
+}

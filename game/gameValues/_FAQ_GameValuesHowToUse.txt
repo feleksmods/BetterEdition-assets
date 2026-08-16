@@ -1,0 +1,40 @@
+All available GameValues files are located in the modsExamples/gameValues_AllFiles/ folder.
+The game does not load these default example files automatically.
+
+To use the GameValues files, move the .json files from:
+modsExamples/gameValues_AllFiles/
+
+to:
+game/gameValues/
+
+
+If you do not move the files, any changes will have no effect.
+If you do not move the files, any changes will have no effect.
+If you do not move the files, any changes will have no effect.
+If you do not move the files, any changes will have no effect.
+
+When creating your own mod, place the files in:
+
+mods/YOUR_MOD_NAME/game/gameValues/
+mods/YOUR_MOD_NAME/game/gameValues/
+
+## Important
+Do not copy all GameValues files into your mod.
+Only copy the files you actually modify.
+
+This allows other modders to edit and override the remaining files.
+
+If you copy all .json files from:
+modsExamples/gameValues_AllFiles/
+
+into:
+game/gameValues/
+
+You will block other mods from modifying those files.
+
+For example, if a player uses two or more mods, copying all GameValues files may override changes made by other modders.
+For example, if a player uses two or more mods, copying all GameValues files may override changes made by other modders.
+For example, if a player uses two or more mods, copying all GameValues files may override changes made by other modders.
+For example, if a player uses two or more mods, copying all GameValues files may override changes made by other modders.
+For example, if a player uses two or more mods, copying all GameValues files may override changes made by other modders.
+For example, if a player uses two or more mods, copying all GameValues files may override changes made by other modders.

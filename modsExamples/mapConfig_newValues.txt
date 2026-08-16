@@ -1,0 +1,22 @@
+In the config.json file of the map, there are new values:
+
+MapScaleExtra: 1.0,
+ProvinceBorderNew: true,
+ProvinceNames: true,
+
+## MapScaleExtra
+Adjusts the map’s scale without needing to generate higher-scale province backgrounds.
+1.0 is default value.
+While editing province backgrounds in the map’s config.json, the value of MapScaleExtra must be set to 1.0!
+
+##  ProvinceBorderNew: true or false
+Enables the new province border drawing style, or keeps the old one.
+Useful if province borders are poorly made and cause visual bugs.
+
+
+## ProvinceNames: true or false
+Toggles province name display.
+If province names look bad, you can improve them in-game by going to:
+Editor → Map Editor → Map → Province Names
+
+https://www.youtube.com/watch?v=9eN2M4a06FA

@@ -1,0 +1,12 @@
+{
+	cities:
+	[
+		{
+	Name: "Yuzhne",
+	x: 9854,
+	y: 2356,
+	p: 12609
+},
+	],
+	name: Earth
+}

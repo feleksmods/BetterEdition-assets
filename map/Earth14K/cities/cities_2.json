@@ -1,0 +1,12 @@
+{
+	cities:
+	[
+		{
+	Name: "Shcholkine",
+	x: 10091,
+	y: 2445,
+	p: 12607
+},
+	],
+	name: Earth
+}

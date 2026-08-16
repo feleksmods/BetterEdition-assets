@@ -1,0 +1,21 @@
+{
+	Map: [
+		{
+			MapName: "Earth 14K",
+			Author: "Łukasz Jakowski",
+			BackgroundName: "AoC2",
+			ContinentsPackage: "Earth6"
+			RegionsPackage: "Earth_AoC2",
+			NumberOfProvinces: 13892,
+			MapScale: 1,
+			MapScaleExtra: 3.0,
+			ProvinceBorderNew: true,
+			ProvinceNames: true,
+			WorldMap: true,
+			Scenario: "1749542979455dqypuefg",
+			Wiki: "Earth"
+		},
+	],
+	
+	Age_of_Civilizations: Map
+}

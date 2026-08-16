@@ -1,0 +1,15 @@
+{
+	Map: [
+		{
+			Folder: "Earth14K"
+		},
+		{
+			Folder: "Earth"
+		},
+		{
+			Folder: "template"
+		},
+	],
+	
+	Age_of_Civilizations: Maps
+}

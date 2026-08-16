@@ -1,0 +1,13 @@
+{
+	mountains:
+	[
+		{
+			Name: "TEST MOUNTAIN",
+			Elevation: 1992,
+			x: 2090,
+			y: 1038,
+		},
+	],
+	
+	name: Earth
+}

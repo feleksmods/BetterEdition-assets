@@ -1,0 +1,15 @@
+{
+"Age_of_Civilizations": "Data",
+"Data_Scenario_Info": [
+	{
+		"Name": "FallOfTheHanDynasty",
+		"Author": "Łukasz Jakowski",
+		"Wiki": "Age of History 2: Definitive Edition",
+		"Civs": 15,
+		"Age": 1,
+		"Year": 195,
+		"Month": 4,
+		"Day": 21
+	}
+]
+}

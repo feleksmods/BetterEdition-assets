@@ -1,0 +1,18 @@
+{
+	POLICY_NAME: [ "DecentralizedAdministration", "LimitedAdministration", "StandardAdministration", "CentralizedAdministration", "TotalStateControl"],
+
+	DEFAULT_POLICY_ID: 2,
+
+	POLICY_ICON_SCALE: [ 0.6, 0.8, 1.0, 1.1, 1.2],
+
+	POLICY_ACCEPTABLE_TAXATION: [ -0.08, -0.03, 0.00, 0.06, 0.1 ],
+	POLICY_MIN_GOODS: [ -0.06, -0.04, 0.00, 0.02, 0.05 ],
+	POLICY_MIN_INVESTMENTS: [ -0.05, -0.03, 0.00, 0.04, 0.05 ],
+	POLICY_RESEARCH_COST: [ -0.07, -0.025, 0.00, 0.025, 0.08 ],
+	POLICY_ADMINISTRATION_COST: [ -0.05, -0.02, 0.00, 0.02, 0.04 ],
+	POLICY_INCOME_PRODUCTION: [ -0.08, -0.035, 0.00, 0.035, 0.08 ],
+	POLICY_MILITARY_UPKEEP: [ 0.1, 0.06, 0.00, -0.07, -0.12 ],
+
+	CHANGE_COST_INCOME_TAXATION_PERC: 3.0,
+	CHANGE_COST_INCOME_PRODUCTION_PERC: 4.5,
+}

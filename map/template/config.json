@@ -1,0 +1,21 @@
+{
+	Map: [
+		{
+			MapName: "Map Template",
+			Author: "Author Name",
+			BackgroundName: "AoC2",
+			ContinentsPackage: "Earth6"
+			RegionsPackage: "Earth_AoC2",
+			NumberOfProvinces: 2,
+			MapScale: 3,
+			MapScaleExtra: 1.0,
+			ProvinceBorderNew: false,
+			ProvinceNames: true,
+			WorldMap: true,
+			Scenario: "testScenario",
+			Wiki: "Wikipedia:Unusual_articles"
+		},
+	],
+	
+	Age_of_Civilizations: Map
+}

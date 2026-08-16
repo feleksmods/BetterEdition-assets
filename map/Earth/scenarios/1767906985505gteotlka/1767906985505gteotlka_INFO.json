@@ -1,0 +1,15 @@
+{
+"Age_of_Civilizations": "Data",
+"Data_Scenario_Info": [
+	{
+		"Name": "World War I",
+		"Author": "Łukasz Jakowski",
+		"Wiki": "Age of History 2: Definitive Edition",
+		"Civs": 150,
+		"Age": 7,
+		"Year": 1910,
+		"Month": 6,
+		"Day": 6
+	}
+]
+}

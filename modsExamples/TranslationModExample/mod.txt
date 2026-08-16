@@ -1,0 +1,8 @@
+{
+	Name: "MOD NAME",
+	Description: "This mod add new MOD NAME!",
+	
+	Tags: [ "TAG" ],
+	
+	ChangeNote: "First release",
+}

@@ -1,0 +1,15 @@
+{
+"Age_of_Civilizations": "Data",
+"Data_Scenario_Info": [
+	{
+		"Name": "Byzantine-Sasanian War",
+		"Author": "Lukasz Jakowski",
+		"Wiki": "Byzantine-Sasanian_War_of_602-628",
+		"Civs": 4,
+		"Age": 2,
+		"Year": 601,
+		"Month": 11,
+		"Day": 11
+	}
+]
+}

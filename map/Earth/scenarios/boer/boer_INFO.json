@@ -1,0 +1,15 @@
+{
+"Age_of_Civilizations": "Data",
+"Data_Scenario_Info": [
+	{
+		"Name": "Second Boer War",
+		"Author": "Lukasz Jakowski",
+		"Wiki": "Second_Boer_War",
+		"Civs": 4,
+		"Age": 7,
+		"Year": 1899,
+		"Month": 10,
+		"Day": 11
+	}
+]
+}

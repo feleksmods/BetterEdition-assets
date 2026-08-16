@@ -1,0 +1,12 @@
+{
+	cities:
+	[
+		{
+	Name: "Al-Dumayr",
+	x: 10124,
+	y: 3188,
+	p: 12581
+},
+	],
+	name: Earth
+}
