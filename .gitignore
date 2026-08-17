@@ -3,6 +3,3 @@ hs_error_pid*
 
 #Settings
 settings/
-
-#Player save data (playthroughs, service ribbon / achievement progress)
-saves/
