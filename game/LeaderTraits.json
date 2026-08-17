@@ -1,0 +1,85 @@
+{
+	Data: [
+		{
+			Name: "LeaderTraitBrilliantStrategist",
+			fModifier_AttackBonus: 0.15,
+		},
+		{
+			Name: "LeaderTraitIncompetentGeneral",
+			fModifier_AttackBonus: -0.15,
+			fModifier_DefenseBonus: -0.10,
+		},
+		{
+			Name: "LeaderTraitDefensiveMastermind",
+			fModifier_DefenseBonus: 0.15,
+		},
+		{
+			Name: "LeaderTraitReckless",
+			fModifier_AttackBonus: 0.10,
+			fModifier_DefenseBonus: -0.10,
+		},
+		{
+			Name: "LeaderTraitEconomist",
+			fModifier_EconomyGrowth: 0.10,
+		},
+		{
+			Name: "LeaderTraitSpendthrift",
+			fModifier_EconomyGrowth: -0.10,
+			fModifier_MilitaryUpkeep: 0.10,
+		},
+		{
+			Name: "LeaderTraitMasterOfCoin",
+			fModifier_IncomeTaxation: 0.10,
+		},
+		{
+			Name: "LeaderTraitCorrupt",
+			fModifier_IncomeTaxation: -0.10,
+			fModifier_Administration: -0.10,
+		},
+		{
+			Name: "LeaderTraitIndustrialist",
+			fModifier_IncomeProduction: 0.10,
+		},
+		{
+			Name: "LeaderTraitNegligent",
+			fModifier_IncomeProduction: -0.10,
+		},
+		{
+			Name: "LeaderTraitSkilledAdministrator",
+			fModifier_Administration: 0.15,
+		},
+		{
+			Name: "LeaderTraitBureaucratic",
+			fModifier_Administration: -0.10,
+			fModifier_Research: -0.05,
+		},
+		{
+			Name: "LeaderTraitScholar",
+			fModifier_Research: 0.15,
+		},
+		{
+			Name: "LeaderTraitAntiIntellectual",
+			fModifier_Research: -0.15,
+		},
+		{
+			Name: "LeaderTraitFrugalQuartermaster",
+			fModifier_MilitaryUpkeep: -0.10,
+		},
+		{
+			Name: "LeaderTraitLogistician",
+			fModifier_MovementPoints: 0.10,
+		},
+		{
+			Name: "LeaderTraitSluggish",
+			fModifier_MovementPoints: -0.10,
+		},
+		{
+			Name: "LeaderTraitProlific",
+			fModifier_PopGrowth: 0.10,
+		},
+		{
+			Name: "LeaderTraitSicklyRealm",
+			fModifier_PopGrowth: -0.10,
+		},
+	],
+}
