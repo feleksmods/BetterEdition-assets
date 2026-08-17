@@ -1,0 +1,1547 @@
+{
+  "Achievements": [
+    {
+      "id": "BE_POP_1",
+      "category": "Economy",
+      "nameKey": "BEAch_POP1",
+      "descKey": "BEAch_POP1_Desc",
+      "icon": "pop",
+      "condition": "POPULATION",
+      "threshold": 1000000
+    },
+    {
+      "id": "BE_POP_2",
+      "category": "Economy",
+      "nameKey": "BEAch_POP2",
+      "descKey": "BEAch_POP2_Desc",
+      "icon": "pop",
+      "condition": "POPULATION",
+      "threshold": 10000000
+    },
+    {
+      "id": "BE_POP_3",
+      "category": "Economy",
+      "nameKey": "BEAch_POP3",
+      "descKey": "BEAch_POP3_Desc",
+      "icon": "pop",
+      "condition": "POPULATION",
+      "threshold": 50000000
+    },
+    {
+      "id": "BE_POP_4",
+      "category": "Economy",
+      "nameKey": "BEAch_POP4",
+      "descKey": "BEAch_POP4_Desc",
+      "icon": "pop",
+      "condition": "POPULATION",
+      "threshold": 100000000
+    },
+    {
+      "id": "BE_POP_5",
+      "category": "Economy",
+      "nameKey": "BEAch_POP5",
+      "descKey": "BEAch_POP5_Desc",
+      "icon": "pop",
+      "condition": "POPULATION",
+      "threshold": 500000000
+    },
+    {
+      "id": "BE_PROV_1",
+      "category": "Territory",
+      "nameKey": "BEAch_PROV1",
+      "descKey": "BEAch_PROV1_Desc",
+      "icon": "provinces",
+      "condition": "PROVINCES",
+      "threshold": 50
+    },
+    {
+      "id": "BE_PROV_2",
+      "category": "Territory",
+      "nameKey": "BEAch_PROV2",
+      "descKey": "BEAch_PROV2_Desc",
+      "icon": "provinces",
+      "condition": "PROVINCES",
+      "threshold": 150
+    },
+    {
+      "id": "BE_PROV_3",
+      "category": "Territory",
+      "nameKey": "BEAch_PROV3",
+      "descKey": "BEAch_PROV3_Desc",
+      "icon": "provinces",
+      "condition": "PROVINCES",
+      "threshold": 300
+    },
+    {
+      "id": "BE_PROV_4",
+      "category": "Territory",
+      "nameKey": "BEAch_PROV4",
+      "descKey": "BEAch_PROV4_Desc",
+      "icon": "provinces",
+      "condition": "PROVINCES",
+      "threshold": 500
+    },
+    {
+      "id": "BE_PROV_5",
+      "category": "Territory",
+      "nameKey": "BEAch_PROV5",
+      "descKey": "BEAch_PROV5_Desc",
+      "icon": "provinces",
+      "condition": "PROVINCES",
+      "threshold": 1000
+    },
+    {
+      "id": "BE_ECON_1",
+      "category": "Economy",
+      "nameKey": "BEAch_ECON1",
+      "descKey": "BEAch_ECON1_Desc",
+      "icon": "economy",
+      "condition": "ECONOMY",
+      "threshold": 10000
+    },
+    {
+      "id": "BE_ECON_2",
+      "category": "Economy",
+      "nameKey": "BEAch_ECON2",
+      "descKey": "BEAch_ECON2_Desc",
+      "icon": "economy",
+      "condition": "ECONOMY",
+      "threshold": 100000
+    },
+    {
+      "id": "BE_ECON_3",
+      "category": "Economy",
+      "nameKey": "BEAch_ECON3",
+      "descKey": "BEAch_ECON3_Desc",
+      "icon": "economy",
+      "condition": "ECONOMY",
+      "threshold": 500000
+    },
+    {
+      "id": "BE_ECON_4",
+      "category": "Economy",
+      "nameKey": "BEAch_ECON4",
+      "descKey": "BEAch_ECON4_Desc",
+      "icon": "economy",
+      "condition": "ECONOMY",
+      "threshold": 1000000
+    },
+    {
+      "id": "BE_ECON_5",
+      "category": "Economy",
+      "nameKey": "BEAch_ECON5",
+      "descKey": "BEAch_ECON5_Desc",
+      "icon": "economy",
+      "condition": "ECONOMY",
+      "threshold": 5000000
+    },
+    {
+      "id": "BE_ARMY_1",
+      "category": "Military",
+      "nameKey": "BEAch_ARMY1",
+      "descKey": "BEAch_ARMY1_Desc",
+      "icon": "diploArmy",
+      "condition": "ARMY",
+      "threshold": 10000
+    },
+    {
+      "id": "BE_ARMY_2",
+      "category": "Military",
+      "nameKey": "BEAch_ARMY2",
+      "descKey": "BEAch_ARMY2_Desc",
+      "icon": "diploArmy",
+      "condition": "ARMY",
+      "threshold": 50000
+    },
+    {
+      "id": "BE_ARMY_3",
+      "category": "Military",
+      "nameKey": "BEAch_ARMY3",
+      "descKey": "BEAch_ARMY3_Desc",
+      "icon": "diploArmy",
+      "condition": "ARMY",
+      "threshold": 150000
+    },
+    {
+      "id": "BE_ARMY_4",
+      "category": "Military",
+      "nameKey": "BEAch_ARMY4",
+      "descKey": "BEAch_ARMY4_Desc",
+      "icon": "diploArmy",
+      "condition": "ARMY",
+      "threshold": 500000
+    },
+    {
+      "id": "BE_ARMY_5",
+      "category": "Military",
+      "nameKey": "BEAch_ARMY5",
+      "descKey": "BEAch_ARMY5_Desc",
+      "icon": "diploArmy",
+      "condition": "ARMY",
+      "threshold": 1000000
+    },
+    {
+      "id": "BE_TURN_1",
+      "category": "Endurance",
+      "nameKey": "BEAch_TURN1",
+      "descKey": "BEAch_TURN1_Desc",
+      "icon": "diploGoldenAge",
+      "condition": "TURNS",
+      "threshold": 25
+    },
+    {
+      "id": "BE_TURN_2",
+      "category": "Endurance",
+      "nameKey": "BEAch_TURN2",
+      "descKey": "BEAch_TURN2_Desc",
+      "icon": "diploGoldenAge",
+      "condition": "TURNS",
+      "threshold": 50
+    },
+    {
+      "id": "BE_TURN_3",
+      "category": "Endurance",
+      "nameKey": "BEAch_TURN3",
+      "descKey": "BEAch_TURN3_Desc",
+      "icon": "diploGoldenAge",
+      "condition": "TURNS",
+      "threshold": 100
+    },
+    {
+      "id": "BE_TURN_4",
+      "category": "Endurance",
+      "nameKey": "BEAch_TURN4",
+      "descKey": "BEAch_TURN4_Desc",
+      "icon": "diploGoldenAge",
+      "condition": "TURNS",
+      "threshold": 200
+    },
+    {
+      "id": "BE_TURN_5",
+      "category": "Endurance",
+      "nameKey": "BEAch_TURN5",
+      "descKey": "BEAch_TURN5_Desc",
+      "icon": "diploGoldenAge",
+      "condition": "TURNS",
+      "threshold": 500
+    },
+    {
+      "id": "BE_TECH_1",
+      "category": "Science",
+      "nameKey": "BEAch_TECH1",
+      "descKey": "BEAch_TECH1_Desc",
+      "icon": "research",
+      "condition": "TECH_LEVEL",
+      "threshold": 10
+    },
+    {
+      "id": "BE_TECH_2",
+      "category": "Science",
+      "nameKey": "BEAch_TECH2",
+      "descKey": "BEAch_TECH2_Desc",
+      "icon": "research",
+      "condition": "TECH_LEVEL",
+      "threshold": 30
+    },
+    {
+      "id": "BE_TECH_3",
+      "category": "Science",
+      "nameKey": "BEAch_TECH3",
+      "descKey": "BEAch_TECH3_Desc",
+      "icon": "research",
+      "condition": "TECH_LEVEL",
+      "threshold": 50
+    },
+    {
+      "id": "BE_TECH_4",
+      "category": "Science",
+      "nameKey": "BEAch_TECH4",
+      "descKey": "BEAch_TECH4_Desc",
+      "icon": "research",
+      "condition": "TECH_LEVEL",
+      "threshold": 80
+    },
+    {
+      "id": "BE_TECH_5",
+      "category": "Science",
+      "nameKey": "BEAch_TECH5",
+      "descKey": "BEAch_TECH5_Desc",
+      "icon": "research",
+      "condition": "TECH_LEVEL",
+      "threshold": 120
+    },
+    {
+      "id": "BE_BUILD_FORTS_1",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildForts1",
+      "descKey": "BEAch_BuildForts1_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "forts",
+      "threshold": 3
+    },
+    {
+      "id": "BE_BUILD_FORTS_2",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildForts2",
+      "descKey": "BEAch_BuildForts2_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "forts",
+      "threshold": 7
+    },
+    {
+      "id": "BE_BUILD_FORTS_3",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildForts3",
+      "descKey": "BEAch_BuildForts3_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "forts",
+      "threshold": 15
+    },
+    {
+      "id": "BE_BUILD_TOWERS_1",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildTowers1",
+      "descKey": "BEAch_BuildTowers1_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "towers",
+      "threshold": 3
+    },
+    {
+      "id": "BE_BUILD_TOWERS_2",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildTowers2",
+      "descKey": "BEAch_BuildTowers2_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "towers",
+      "threshold": 7
+    },
+    {
+      "id": "BE_BUILD_TOWERS_3",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildTowers3",
+      "descKey": "BEAch_BuildTowers3_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "towers",
+      "threshold": 15
+    },
+    {
+      "id": "BE_BUILD_PORTS_1",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildPorts1",
+      "descKey": "BEAch_BuildPorts1_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "ports",
+      "threshold": 3
+    },
+    {
+      "id": "BE_BUILD_PORTS_2",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildPorts2",
+      "descKey": "BEAch_BuildPorts2_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "ports",
+      "threshold": 7
+    },
+    {
+      "id": "BE_BUILD_PORTS_3",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildPorts3",
+      "descKey": "BEAch_BuildPorts3_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "ports",
+      "threshold": 15
+    },
+    {
+      "id": "BE_BUILD_LIBRARIES_1",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildLibraries1",
+      "descKey": "BEAch_BuildLibraries1_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "libraries",
+      "threshold": 3
+    },
+    {
+      "id": "BE_BUILD_LIBRARIES_2",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildLibraries2",
+      "descKey": "BEAch_BuildLibraries2_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "libraries",
+      "threshold": 7
+    },
+    {
+      "id": "BE_BUILD_LIBRARIES_3",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildLibraries3",
+      "descKey": "BEAch_BuildLibraries3_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "libraries",
+      "threshold": 15
+    },
+    {
+      "id": "BE_BUILD_SUPPLIES_1",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildSupplies1",
+      "descKey": "BEAch_BuildSupplies1_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "supplies",
+      "threshold": 3
+    },
+    {
+      "id": "BE_BUILD_SUPPLIES_2",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildSupplies2",
+      "descKey": "BEAch_BuildSupplies2_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "supplies",
+      "threshold": 7
+    },
+    {
+      "id": "BE_BUILD_SUPPLIES_3",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildSupplies3",
+      "descKey": "BEAch_BuildSupplies3_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "supplies",
+      "threshold": 15
+    },
+    {
+      "id": "BE_BUILD_ARMORIES_1",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildArmories1",
+      "descKey": "BEAch_BuildArmories1_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "armories",
+      "threshold": 3
+    },
+    {
+      "id": "BE_BUILD_ARMORIES_2",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildArmories2",
+      "descKey": "BEAch_BuildArmories2_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "armories",
+      "threshold": 7
+    },
+    {
+      "id": "BE_BUILD_ARMORIES_3",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildArmories3",
+      "descKey": "BEAch_BuildArmories3_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "armories",
+      "threshold": 15
+    },
+    {
+      "id": "BE_BUILD_FARMS_1",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildFarms1",
+      "descKey": "BEAch_BuildFarms1_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "farms",
+      "threshold": 3
+    },
+    {
+      "id": "BE_BUILD_FARMS_2",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildFarms2",
+      "descKey": "BEAch_BuildFarms2_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "farms",
+      "threshold": 7
+    },
+    {
+      "id": "BE_BUILD_FARMS_3",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildFarms3",
+      "descKey": "BEAch_BuildFarms3_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "farms",
+      "threshold": 15
+    },
+    {
+      "id": "BE_BUILD_WORKSHOPS_1",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildWorkshops1",
+      "descKey": "BEAch_BuildWorkshops1_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "workshops",
+      "threshold": 3
+    },
+    {
+      "id": "BE_BUILD_WORKSHOPS_2",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildWorkshops2",
+      "descKey": "BEAch_BuildWorkshops2_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "workshops",
+      "threshold": 7
+    },
+    {
+      "id": "BE_BUILD_WORKSHOPS_3",
+      "category": "Construction",
+      "nameKey": "BEAch_BuildWorkshops3",
+      "descKey": "BEAch_BuildWorkshops3_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "workshops",
+      "threshold": 15
+    },
+    {
+      "id": "BE_VASSAL_1",
+      "category": "Diplomacy",
+      "nameKey": "BEAch_Vassal1",
+      "descKey": "BEAch_Vassal1_Desc",
+      "icon": "infoDiplomacy",
+      "condition": "VASSALS",
+      "threshold": 1
+    },
+    {
+      "id": "BE_VASSAL_2",
+      "category": "Diplomacy",
+      "nameKey": "BEAch_Vassal2",
+      "descKey": "BEAch_Vassal2_Desc",
+      "icon": "infoDiplomacy",
+      "condition": "VASSALS",
+      "threshold": 3
+    },
+    {
+      "id": "BE_VASSAL_3",
+      "category": "Diplomacy",
+      "nameKey": "BEAch_Vassal3",
+      "descKey": "BEAch_Vassal3_Desc",
+      "icon": "infoDiplomacy",
+      "condition": "VASSALS",
+      "threshold": 6
+    },
+    {
+      "id": "BE_MASTER_BUILDER",
+      "category": "Construction",
+      "nameKey": "BEAch_MasterBuilder",
+      "descKey": "BEAch_MasterBuilder_Desc",
+      "icon": "buildAll",
+      "condition": "MASTER_BUILDER"
+    },
+    {
+      "id": "BE_REVOLUTIONARY",
+      "category": "Special",
+      "nameKey": "BEAch_Revolutionary",
+      "descKey": "BEAch_Revolutionary_Desc",
+      "icon": "diploRevolution",
+      "condition": "CIVIL_WAR_SURVIVED"
+    },
+    {
+      "id": "BE_PEACEKEEPER",
+      "category": "Special",
+      "nameKey": "BEAch_Peacekeeper",
+      "descKey": "BEAch_Peacekeeper_Desc",
+      "icon": "diploArmyDisband",
+      "condition": "PEACEKEEPER",
+      "threshold": 50,
+      "maxArmy": 50
+    },
+    {
+      "id": "BE_FORM_ABBR",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "abbr",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_AFG_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "afg_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_AFRI",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "afri",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_AKSU_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "aksu_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ALB3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "alb3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ALPI3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "alpi3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ANDA3",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "anda3",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ANDD",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "andd",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ANI_O",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "ani_o",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ANTI",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "anti",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ANZ3",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "anz3",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ARAB",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "arab",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ARGG3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "argg3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ARLES4_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "arles4_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ARM_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "arm_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ARZT_C",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "arzt_c",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ASHA_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "asha_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ASIT_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "asit_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ASLR_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "aslr_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ATR_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "atr_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ATR_M2",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "atr_m2",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_AUHH_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "auhh_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_AVAL3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "aval3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_AZAN4_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "azan4_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_AZTE_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "azte_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_BABY_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "baby_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_BATV",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "batv",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_BAVA_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "bava_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_BBL3",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "bbl3",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_BEL_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "bel_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_BENE_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "bene_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_BEW",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "bew",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_BOHE_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "bohe_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_BRA_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "bra_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_BULS",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "buls",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_BURG3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "burg3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_BYZA_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "byza_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_CARR_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "carr_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_CARY3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "cary3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_CAST_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "cast_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_CAU3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "cau3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_CENT",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "cent",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_CHEE_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "chee_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_CHOL_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "chol_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_CONO3_R",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "cono3_r",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_COS_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "cos_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_COUB_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "coub_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_CRKH",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "crkh",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_CUM_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "cum_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_CYPK",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "cypk",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_CZE",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "cze",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_CZSL",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "czsl",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_DACC_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "dacc_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_DALM2",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "dalm2",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_DANU3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "danu3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_DRC_F",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "drc_f",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_DURR_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "durr_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_EAFF",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "eaff",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_EAGL3",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "eagl3",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_EAST2_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "east2_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_EGY_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "egy_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ENG_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "eng_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_EST_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "est_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ETH_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "eth_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_EUNN",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "eunn",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_EVIL3_Z",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "evil3_z",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_FIN_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "fin_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_FISH3",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "fish3",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_FRA_R",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "fra_r",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_FRAK3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "frak3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_FRAT3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "frat3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_FRC_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "frc_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_FRI_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "fri_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GAJA3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "gaja3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GANG3_N",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "gang3_n",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GASE3",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "gase3",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GATR3_F",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "gatr3_f",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GBOH3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "gboh3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GBRA3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "gbra3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GBUL3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "gbul3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GER_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "ger_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GGUY3",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "gguy3",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GHAV_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "ghav_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GLAT3",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "glat3",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GLEG_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "gleg_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GLUX3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "glux3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GMAG3",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "gmag3",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GMAJ3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "gmaj3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GMOR3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "gmor3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GOGG_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "gogg_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GOMA3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "goma3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GRC",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "grc",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GRE_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "gre_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GREA3",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "grea3",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GSCA3",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "gsca3",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_GSG3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "gsg3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_HANS3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "hans3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_HGR4_O",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "hgr4_o",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_HOLY_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "holy_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_HUN_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "hun_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_IBER_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "iber_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ICAL3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "ical3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_INCA_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "inca_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_IND",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "ind",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_INDO3",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "indo3",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_INS",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "ins",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_INT_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "int_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_IRA_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "ira_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_IRE_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "ire_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_ITA_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "ita_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_JAP_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "jap_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_JAUU3",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "jauu3",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_JOS",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "jos",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_JUR_O",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "jur_o",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_KALM_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "kalm_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_KEIS3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "keis3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_KEK",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "kek",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_KILW",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "kilw",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_KUR",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "kur",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_LAT_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "lat_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_LATI_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "lati_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_LAVV_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "lavv_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_LECH3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "lech3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_LEVA3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "leva3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_LIAA_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "liaa_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_LIB",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "lib",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_LIT_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "lit_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_LOT_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "lot_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_LUX2_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "lux2_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_MACC_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "macc_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_MAD",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "mad",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_MAG_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "mag_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_MAGY3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "magy3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_MAL",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "mal",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_MARA_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "mara_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_MAUR_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "maur_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_MEKO3_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "meko3_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_MEX2_M",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "mex2_m",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_MO",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "mo",
+      "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_FORM_MOG",
+      "category": "Nation Building",
+      "condition": "FORM_TAG",
+      "tag": "mog",
+      "icon": "randomCivilizationFlag"
+    }
+  ]
+}
