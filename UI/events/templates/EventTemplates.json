@@ -69,19 +69,19 @@
 			imgHeight: 220,
 			
 			titlePosX: 60,
-			titlePosY: 375,
+			titlePosY: 360,
 			titleWidth: 575,
-			titleHeight: 50,
+			titleHeight: 40,
 			titleColor: [ 35, 35, 35 ],
 			
 			descPosX: 60,
-			descPosY: 440,
+			descPosY: 415,
 			descWidth: 575,
 			descColor: [ 50, 50, 50 ],
 			
 			BUTTON_IMG: "hoi4_button_news.png",
 			btnPosX: 70,
-			btnPosY: 645,
+			btnPosY: 665,
 			btnWidth: 555,
 			btnHeight: 38,
 			nextButtonBelow: true,
