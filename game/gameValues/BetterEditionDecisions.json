@@ -1,0 +1,1133 @@
+{
+	"Decisions": [
+		{
+			"id": "BE_DEC_FESTIVAL",
+			"nameKey": "BE_DEC_FESTIVAL_Name",
+			"descKey": "BE_DEC_FESTIVAL_Desc",
+			"icon": "diploFestival",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 10,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 200
+				}
+			],
+			"effects": [
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": 5
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_TAX_RAID",
+			"nameKey": "BE_DEC_TAX_RAID_Name",
+			"descKey": "BE_DEC_TAX_RAID_Desc",
+			"icon": "topGold",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 15,
+			"costs": [],
+			"effects": [
+				{
+					"type": "MONEY_PERCENT",
+					"value": 15
+				},
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": -5
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_FUNDRAISER",
+			"nameKey": "BE_DEC_FUNDRAISER_Name",
+			"descKey": "BE_DEC_FUNDRAISER_Desc",
+			"icon": "topGoldOrg",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 20,
+			"costs": [],
+			"effects": [
+				{
+					"type": "MONEY_FLAT",
+					"value": 2000
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_PARADE",
+			"nameKey": "BE_DEC_PARADE_Name",
+			"descKey": "BE_DEC_PARADE_Desc",
+			"icon": "army_capital",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 8,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 100
+				}
+			],
+			"effects": [
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": 3
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_STABILITY_CAMPAIGN",
+			"nameKey": "BE_DEC_STABILITY_CAMPAIGN_Name",
+			"descKey": "BE_DEC_STABILITY_CAMPAIGN_Desc",
+			"icon": "promoteStability",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 12,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 300
+				}
+			],
+			"effects": [
+				{
+					"type": "STABILITY_PERCENT",
+					"value": 10
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_RESEARCH_GRANT",
+			"nameKey": "BE_DEC_RESEARCH_GRANT_Name",
+			"descKey": "BE_DEC_RESEARCH_GRANT_Desc",
+			"icon": "research",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 20,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 500
+				}
+			],
+			"effects": [
+				{
+					"type": "TECH_LEVEL_PERCENT",
+					"value": 5
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_PUBLIC_WORKS",
+			"nameKey": "BE_DEC_PUBLIC_WORKS_Name",
+			"descKey": "BE_DEC_PUBLIC_WORKS_Desc",
+			"icon": "infoStability",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 15,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 400
+				}
+			],
+			"effects": [
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": 4
+				},
+				{
+					"type": "STABILITY_PERCENT",
+					"value": 4
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_GOLDEN_AGE",
+			"nameKey": "BE_DEC_GOLDEN_AGE_Name",
+			"descKey": "BE_DEC_GOLDEN_AGE_Desc",
+			"icon": "diploGoldenAge",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 30,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 1000
+				}
+			],
+			"effects": [
+				{
+					"type": "MONEY_PERCENT",
+					"value": 10
+				},
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": 5
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_AUSTERITY",
+			"nameKey": "BE_DEC_AUSTERITY_Name",
+			"descKey": "BE_DEC_AUSTERITY_Desc",
+			"icon": "topGoldC",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 15,
+			"costs": [],
+			"effects": [
+				{
+					"type": "MONEY_PERCENT",
+					"value": 20
+				},
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": -8
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_CHARITY",
+			"nameKey": "BE_DEC_CHARITY_Name",
+			"descKey": "BE_DEC_CHARITY_Desc",
+			"icon": "diploGift",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 12,
+			"costs": [],
+			"effects": [
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": 6
+				},
+				{
+					"type": "MONEY_FLAT",
+					"value": -500
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_CENSUS",
+			"nameKey": "BE_DEC_CENSUS_Name",
+			"descKey": "BE_DEC_CENSUS_Desc",
+			"icon": "infoTech",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 10,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 150
+				}
+			],
+			"effects": [
+				{
+					"type": "TECH_LEVEL_PERCENT",
+					"value": 2
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_MARKET_DAY",
+			"nameKey": "BE_DEC_MARKET_DAY_Name",
+			"descKey": "BE_DEC_MARKET_DAY_Desc",
+			"icon": "diploTrade",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 6,
+			"costs": [],
+			"effects": [
+				{
+					"type": "MONEY_PERCENT",
+					"value": 5
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_LOAN",
+			"nameKey": "BE_DEC_LOAN_Name",
+			"descKey": "BE_DEC_LOAN_Desc",
+			"icon": "diploLoan",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 25,
+			"costs": [
+				{
+					"resource": "DIPLOMACY_POINTS",
+					"value": 20
+				}
+			],
+			"effects": [
+				{
+					"type": "MONEY_FLAT",
+					"value": 3000
+				},
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": -3
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_MILITARY_DRILLS",
+			"nameKey": "BE_DEC_MILITARY_DRILLS_Name",
+			"descKey": "BE_DEC_MILITARY_DRILLS_Desc",
+			"icon": "armouryIco",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 10,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 250
+				},
+				{
+					"resource": "MOVEMENT_POINTS",
+					"value": 10
+				}
+			],
+			"effects": [
+				{
+					"type": "STABILITY_PERCENT",
+					"value": 5
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_INFRASTRUCTURE",
+			"nameKey": "BE_DEC_INFRASTRUCTURE_Name",
+			"descKey": "BE_DEC_INFRASTRUCTURE_Desc",
+			"icon": "bFactory",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 18,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 800
+				}
+			],
+			"effects": [
+				{
+					"type": "TECH_LEVEL_PERCENT",
+					"value": 3
+				},
+				{
+					"type": "MONEY_FLAT",
+					"value": -800
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_AMNESTY",
+			"nameKey": "BE_DEC_AMNESTY_Name",
+			"descKey": "BE_DEC_AMNESTY_Desc",
+			"icon": "diploHeart",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 20,
+			"costs": [],
+			"effects": [
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": 7
+				},
+				{
+					"type": "STABILITY_PERCENT",
+					"value": -3
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_PROPAGANDA",
+			"nameKey": "BE_DEC_PROPAGANDA_Name",
+			"descKey": "BE_DEC_PROPAGANDA_Desc",
+			"icon": "diploRelations",
+			"type": "PERMANENT",
+			"conditions": [],
+			"cooldownTurns": 14,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 350
+				}
+			],
+			"effects": [
+				{
+					"type": "STABILITY_PERCENT",
+					"value": 6
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_BRONZE_TOOLS",
+			"nameKey": "BE_DEC_BRONZE_TOOLS_Name",
+			"descKey": "BE_DEC_BRONZE_TOOLS_Desc",
+			"icon": "technology",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": -550,
+			"untilYear": 0,
+			"cooldownTurns": 15,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 100
+				}
+			],
+			"effects": [
+				{
+					"type": "TECH_LEVEL_PERCENT",
+					"value": 2
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_ROAD_NETWORK",
+			"nameKey": "BE_DEC_ROAD_NETWORK_Name",
+			"descKey": "BE_DEC_ROAD_NETWORK_Desc",
+			"icon": "diploTrade",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": -257,
+			"untilYear": 0,
+			"cooldownTurns": 15,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 200
+				}
+			],
+			"effects": [
+				{
+					"type": "MONEY_PERCENT",
+					"value": 5
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_FEUDAL_LEVY",
+			"nameKey": "BE_DEC_FEUDAL_LEVY_Name",
+			"descKey": "BE_DEC_FEUDAL_LEVY_Desc",
+			"icon": "diploArmy",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": 500,
+			"untilYear": 0,
+			"cooldownTurns": 12,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 150
+				}
+			],
+			"effects": [
+				{
+					"type": "STABILITY_PERCENT",
+					"value": 3
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_MONASTERIES",
+			"nameKey": "BE_DEC_MONASTERIES_Name",
+			"descKey": "BE_DEC_MONASTERIES_Desc",
+			"icon": "religion",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": 800,
+			"untilYear": 0,
+			"cooldownTurns": 15,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 200
+				}
+			],
+			"effects": [
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": 4
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_GUILD_CHARTER",
+			"nameKey": "BE_DEC_GUILD_CHARTER_Name",
+			"descKey": "BE_DEC_GUILD_CHARTER_Desc",
+			"icon": "diploTrade",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": 1066,
+			"untilYear": 0,
+			"cooldownTurns": 15,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 300
+				}
+			],
+			"effects": [
+				{
+					"type": "MONEY_PERCENT",
+					"value": 8
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_CHIVALRIC_CODE",
+			"nameKey": "BE_DEC_CHIVALRIC_CODE_Name",
+			"descKey": "BE_DEC_CHIVALRIC_CODE_Desc",
+			"icon": "diploWarPreparations",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": 1188,
+			"untilYear": 0,
+			"cooldownTurns": 15,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 250
+				}
+			],
+			"effects": [
+				{
+					"type": "STABILITY_PERCENT",
+					"value": 4
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_UNIVERSITY",
+			"nameKey": "BE_DEC_UNIVERSITY_Name",
+			"descKey": "BE_DEC_UNIVERSITY_Desc",
+			"icon": "research",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": 1254,
+			"untilYear": 0,
+			"cooldownTurns": 20,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 600
+				},
+				{
+					"resource": "DIPLOMACY_POINTS",
+					"value": 15
+				}
+			],
+			"effects": [
+				{
+					"type": "TECH_LEVEL_PERCENT",
+					"value": 4
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_BLACK_DEATH_RECOVERY",
+			"nameKey": "BE_DEC_BLACK_DEATH_RECOVERY_Name",
+			"descKey": "BE_DEC_BLACK_DEATH_RECOVERY_Desc",
+			"icon": "diploHeart",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": 1354,
+			"untilYear": 0,
+			"cooldownTurns": 20,
+			"costs": [],
+			"effects": [
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": 6
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_RENAISSANCE_PATRONAGE",
+			"nameKey": "BE_DEC_RENAISSANCE_PATRONAGE_Name",
+			"descKey": "BE_DEC_RENAISSANCE_PATRONAGE_Desc",
+			"icon": "diploGoldenAge",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": 1440,
+			"untilYear": 0,
+			"cooldownTurns": 20,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 700
+				}
+			],
+			"effects": [
+				{
+					"type": "TECH_LEVEL_PERCENT",
+					"value": 5
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_JOINT_STOCK",
+			"nameKey": "BE_DEC_JOINT_STOCK_Name",
+			"descKey": "BE_DEC_JOINT_STOCK_Desc",
+			"icon": "topGoldOrg",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": 1600,
+			"untilYear": 0,
+			"cooldownTurns": 18,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 500
+				}
+			],
+			"effects": [
+				{
+					"type": "MONEY_PERCENT",
+					"value": 10
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_ENLIGHTENMENT",
+			"nameKey": "BE_DEC_ENLIGHTENMENT_Name",
+			"descKey": "BE_DEC_ENLIGHTENMENT_Desc",
+			"icon": "infoTech",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": 1700,
+			"untilYear": 0,
+			"cooldownTurns": 22,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 800
+				},
+				{
+					"resource": "DIPLOMACY_POINTS",
+					"value": 20
+				}
+			],
+			"effects": [
+				{
+					"type": "TECH_LEVEL_PERCENT",
+					"value": 6
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_INDUSTRIALIZE",
+			"nameKey": "BE_DEC_INDUSTRIALIZE_Name",
+			"descKey": "BE_DEC_INDUSTRIALIZE_Desc",
+			"icon": "bFactory",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": 1800,
+			"untilYear": 0,
+			"cooldownTurns": 20,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 1000
+				}
+			],
+			"effects": [
+				{
+					"type": "MONEY_PERCENT",
+					"value": 12
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_PUBLIC_EDUCATION",
+			"nameKey": "BE_DEC_PUBLIC_EDUCATION_Name",
+			"descKey": "BE_DEC_PUBLIC_EDUCATION_Desc",
+			"icon": "infoTech",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": 1900,
+			"untilYear": 0,
+			"cooldownTurns": 20,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 600
+				}
+			],
+			"effects": [
+				{
+					"type": "TECH_LEVEL_PERCENT",
+					"value": 5
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_WAR_BONDS",
+			"nameKey": "BE_DEC_WAR_BONDS_Name",
+			"descKey": "BE_DEC_WAR_BONDS_Desc",
+			"icon": "topGold2",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": 1936,
+			"untilYear": 0,
+			"cooldownTurns": 15,
+			"costs": [],
+			"effects": [
+				{
+					"type": "MONEY_FLAT",
+					"value": 5000
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_WELFARE_STATE",
+			"nameKey": "BE_DEC_WELFARE_STATE_Name",
+			"descKey": "BE_DEC_WELFARE_STATE_Desc",
+			"icon": "diploHeart",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": 1950,
+			"untilYear": 0,
+			"cooldownTurns": 25,
+			"costs": [],
+			"effects": [
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": 8
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_TECH_PARK",
+			"nameKey": "BE_DEC_TECH_PARK_Name",
+			"descKey": "BE_DEC_TECH_PARK_Desc",
+			"icon": "technology",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": 2000,
+			"untilYear": 0,
+			"cooldownTurns": 22,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 900
+				}
+			],
+			"effects": [
+				{
+					"type": "TECH_LEVEL_PERCENT",
+					"value": 7
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_DIGITAL_GOV",
+			"nameKey": "BE_DEC_DIGITAL_GOV_Name",
+			"descKey": "BE_DEC_DIGITAL_GOV_Desc",
+			"icon": "infoStability",
+			"type": "DATE",
+			"conditions": [],
+			"sinceYear": 2020,
+			"untilYear": 0,
+			"cooldownTurns": 18,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 400
+				}
+			],
+			"effects": [
+				{
+					"type": "STABILITY_PERCENT",
+					"value": 6
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_WAR_TAX",
+			"nameKey": "BE_DEC_WAR_TAX_Name",
+			"descKey": "BE_DEC_WAR_TAX_Desc",
+			"icon": "diploWar",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "AT_WAR",
+					"value": 0
+				}
+			],
+			"cooldownTurns": 15,
+			"costs": [],
+			"effects": [
+				{
+					"type": "MONEY_PERCENT",
+					"value": 15
+				},
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": -5
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_PEACE_DIVIDEND",
+			"nameKey": "BE_DEC_PEACE_DIVIDEND_Name",
+			"descKey": "BE_DEC_PEACE_DIVIDEND_Desc",
+			"icon": "peace",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "NOT_AT_WAR",
+					"value": 0
+				}
+			],
+			"cooldownTurns": 12,
+			"costs": [],
+			"effects": [
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": 5
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_APPEASE_MASSES",
+			"nameKey": "BE_DEC_APPEASE_MASSES_Name",
+			"descKey": "BE_DEC_APPEASE_MASSES_Desc",
+			"icon": "diploHeart",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "HAPPINESS_BELOW",
+					"value": 40
+				}
+			],
+			"cooldownTurns": 15,
+			"costs": [],
+			"effects": [
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": 15
+				},
+				{
+					"type": "MONEY_FLAT",
+					"value": -1000
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_CELEBRATE_PROSPERITY",
+			"nameKey": "BE_DEC_CELEBRATE_PROSPERITY_Name",
+			"descKey": "BE_DEC_CELEBRATE_PROSPERITY_Desc",
+			"icon": "happiness",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "HAPPINESS_ABOVE",
+					"value": 80
+				}
+			],
+			"cooldownTurns": 12,
+			"costs": [],
+			"effects": [
+				{
+					"type": "MONEY_PERCENT",
+					"value": 5
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_ENDOW_ACADEMY",
+			"nameKey": "BE_DEC_ENDOW_ACADEMY_Name",
+			"descKey": "BE_DEC_ENDOW_ACADEMY_Desc",
+			"icon": "research",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "GOLD_ABOVE",
+					"value": 10000
+				},
+				{
+					"condition": "TECH_LEVEL_ABOVE",
+					"value": 2
+				}
+			],
+			"cooldownTurns": 20,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 5000
+				}
+			],
+			"effects": [
+				{
+					"type": "TECH_LEVEL_PERCENT",
+					"value": 8
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_TRADE_LEAGUE",
+			"nameKey": "BE_DEC_TRADE_LEAGUE_Name",
+			"descKey": "BE_DEC_TRADE_LEAGUE_Desc",
+			"icon": "diploTrade",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "ECONOMY_ABOVE",
+					"value": 5000
+				},
+				{
+					"condition": "NOT_AT_WAR",
+					"value": 0
+				}
+			],
+			"cooldownTurns": 15,
+			"costs": [],
+			"effects": [
+				{
+					"type": "MONEY_PERCENT",
+					"value": 10
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_CENSUS_REFORM",
+			"nameKey": "BE_DEC_CENSUS_REFORM_Name",
+			"descKey": "BE_DEC_CENSUS_REFORM_Desc",
+			"icon": "infoTech",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "POPULATION_ABOVE",
+					"value": 5000000
+				}
+			],
+			"cooldownTurns": 15,
+			"costs": [],
+			"effects": [
+				{
+					"type": "TECH_LEVEL_PERCENT",
+					"value": 3
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_VETERAN_BONUS",
+			"nameKey": "BE_DEC_VETERAN_BONUS_Name",
+			"descKey": "BE_DEC_VETERAN_BONUS_Desc",
+			"icon": "armouryIco",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "ARMY_ABOVE",
+					"value": 50000
+				}
+			],
+			"cooldownTurns": 18,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 2000
+				}
+			],
+			"effects": [
+				{
+					"type": "STABILITY_PERCENT",
+					"value": 5
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_PROVINCIAL_ADMIN",
+			"nameKey": "BE_DEC_PROVINCIAL_ADMIN_Name",
+			"descKey": "BE_DEC_PROVINCIAL_ADMIN_Desc",
+			"icon": "infoStability",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "PROVINCES_ABOVE",
+					"value": 20
+				}
+			],
+			"cooldownTurns": 15,
+			"costs": [],
+			"effects": [
+				{
+					"type": "STABILITY_PERCENT",
+					"value": 6
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_SCIENTIFIC_ACADEMY",
+			"nameKey": "BE_DEC_SCIENTIFIC_ACADEMY_Name",
+			"descKey": "BE_DEC_SCIENTIFIC_ACADEMY_Desc",
+			"icon": "technology",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "TECH_LEVEL_ABOVE",
+					"value": 5
+				}
+			],
+			"cooldownTurns": 18,
+			"costs": [],
+			"effects": [
+				{
+					"type": "TECH_LEVEL_PERCENT",
+					"value": 4
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_VASSAL_TRIBUTE",
+			"nameKey": "BE_DEC_VASSAL_TRIBUTE_Name",
+			"descKey": "BE_DEC_VASSAL_TRIBUTE_Desc",
+			"icon": "diploVassal",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "VASSALS_ABOVE",
+					"value": 1
+				}
+			],
+			"cooldownTurns": 12,
+			"costs": [],
+			"effects": [
+				{
+					"type": "MONEY_PERCENT",
+					"value": 8
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_PLEAD_OVERLORD",
+			"nameKey": "BE_DEC_PLEAD_OVERLORD_Name",
+			"descKey": "BE_DEC_PLEAD_OVERLORD_Desc",
+			"icon": "diploLord",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "IS_VASSAL",
+					"value": 0
+				}
+			],
+			"cooldownTurns": 15,
+			"costs": [],
+			"effects": [
+				{
+					"type": "MONEY_FLAT",
+					"value": 1000
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_CRACKDOWN",
+			"nameKey": "BE_DEC_CRACKDOWN_Name",
+			"descKey": "BE_DEC_CRACKDOWN_Desc",
+			"icon": "diploAZ",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "HAPPINESS_BELOW",
+					"value": 25
+				}
+			],
+			"cooldownTurns": 18,
+			"costs": [],
+			"effects": [
+				{
+					"type": "STABILITY_PERCENT",
+					"value": 10
+				},
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": -10
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_GRAND_BANK",
+			"nameKey": "BE_DEC_GRAND_BANK_Name",
+			"descKey": "BE_DEC_GRAND_BANK_Desc",
+			"icon": "topGoldOrg",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "ECONOMY_ABOVE",
+					"value": 20000
+				},
+				{
+					"condition": "GOLD_ABOVE",
+					"value": 5000
+				}
+			],
+			"cooldownTurns": 20,
+			"costs": [],
+			"effects": [
+				{
+					"type": "MONEY_PERCENT",
+					"value": 15
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_CONSCRIPTION",
+			"nameKey": "BE_DEC_CONSCRIPTION_Name",
+			"descKey": "BE_DEC_CONSCRIPTION_Desc",
+			"icon": "diploWarPreparations",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "AT_WAR",
+					"value": 0
+				}
+			],
+			"cooldownTurns": 15,
+			"costs": [],
+			"effects": [
+				{
+					"type": "STABILITY_PERCENT",
+					"value": -5
+				},
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": -5
+				},
+				{
+					"type": "MONEY_FLAT",
+					"value": 1500
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_DEMOBILIZE",
+			"nameKey": "BE_DEC_DEMOBILIZE_Name",
+			"descKey": "BE_DEC_DEMOBILIZE_Desc",
+			"icon": "diploTruce",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "NOT_AT_WAR",
+					"value": 0
+				}
+			],
+			"cooldownTurns": 12,
+			"costs": [],
+			"effects": [
+				{
+					"type": "MONEY_PERCENT",
+					"value": 6
+				},
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": 3
+				}
+			]
+		}
+	]
+}
