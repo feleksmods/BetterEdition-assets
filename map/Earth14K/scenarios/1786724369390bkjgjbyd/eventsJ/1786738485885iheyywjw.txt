@@ -1,0 +1,209 @@
+{
+sEventName: "Leader",
+sEventTag: "1786738485885iheyywjw",
+sEventPicture: "",
+wasFired: false,
+wasTriedToRunOnce: false,
+repeatable: false,
+iCivID_Recipient: 0,
+event_PopUp: {
+	showPopUp: true,
+	sText: "leader fix"
+},
+lTriggers: [
+	{
+		lConditions: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Conditions_CivExist",
+				conditionType: "AND",
+				iCivID: 22
+			}
+		],
+		triggerType: "AND"
+	}
+],
+lDecisions: [
+	{
+		sTitle: "Ok",
+		lOutcomes: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_ChangeLeader",
+				iCivID: 159,
+				leaderOfCiv: {
+					sTag: "1540683094279jhnierol",
+					sName: "Chiang Kai-Shek",
+					sImage: "chiang.png",
+					sWiki: "Chaing_Kai-shek",
+					Year: 1887,
+					Month: 10,
+					Day: 31,
+					fModifier_PopGrowth: 0.02,
+					fModifier_EconomyGrowth: 0.01,
+					fModifier_IncomeTaxation: 0,
+					fModifier_IncomeProduction: 0,
+					fModifier_Administration: -0.01,
+					fModifier_Research: 0,
+					fModifier_MilitaryUpkeep: 0,
+					fModifier_AttackBonus: 0,
+					fModifier_DefenseBonus: 0,
+					fModifier_MovementPoints: 0
+				}
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_ChangeLeader",
+				iCivID: 10,
+				leaderOfCiv: {
+					sTag: "1786739049881bootijig",
+					sName: "Vincent Auriol",
+					sImage: "auriol.png",
+					sWiki: "",
+					Year: 1884,
+					Month: 8,
+					Day: 27,
+					fModifier_PopGrowth: 0,
+					fModifier_EconomyGrowth: 0,
+					fModifier_IncomeTaxation: 0,
+					fModifier_IncomeProduction: 0,
+					fModifier_Administration: 0,
+					fModifier_Research: 0,
+					fModifier_MilitaryUpkeep: 0,
+					fModifier_AttackBonus: 0,
+					fModifier_DefenseBonus: 0,
+					fModifier_MovementPoints: 0
+				}
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_ChangeLeader",
+				iCivID: 57,
+				leaderOfCiv: {
+					sTag: "1540683625128lzmskoni",
+					sName: "Mao Zedong",
+					sImage: "zedong.png",
+					sWiki: "Mao_Zedong",
+					Year: 1893,
+					Month: 12,
+					Day: 26,
+					fModifier_PopGrowth: 0.01,
+					fModifier_EconomyGrowth: 0.02,
+					fModifier_IncomeTaxation: 0,
+					fModifier_IncomeProduction: 0,
+					fModifier_Administration: -0.01,
+					fModifier_Research: 0.01,
+					fModifier_MilitaryUpkeep: 0,
+					fModifier_AttackBonus: 0,
+					fModifier_DefenseBonus: 0,
+					fModifier_MovementPoints: 0
+				}
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_ChangeLeader",
+				iCivID: 22,
+				leaderOfCiv: {
+					sTag: "1786737499334ndcvdibv",
+					sName: "Harry S. Truman",
+					sImage: "truman.png",
+					sWiki: "",
+					Year: 1884,
+					Month: 5,
+					Day: 8,
+					fModifier_PopGrowth: 0,
+					fModifier_EconomyGrowth: 0.049999997,
+					fModifier_IncomeTaxation: 0,
+					fModifier_IncomeProduction: 0,
+					fModifier_Administration: 0,
+					fModifier_Research: 0,
+					fModifier_MilitaryUpkeep: -0.04,
+					fModifier_AttackBonus: 0,
+					fModifier_DefenseBonus: 0,
+					fModifier_MovementPoints: 0
+				}
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_ChangeLeader",
+				iCivID: 14,
+				leaderOfCiv: {
+					sTag: "1786802035718fwmvxktg",
+					sName: "Alcide De Gasperi\r\n",
+					sImage: "gasperi.png",
+					sWiki: "",
+					Year: 1881,
+					Month: 4,
+					Day: 3,
+					fModifier_PopGrowth: 0.01,
+					fModifier_EconomyGrowth: 0,
+					fModifier_IncomeTaxation: 0,
+					fModifier_IncomeProduction: 0.01,
+					fModifier_Administration: 0.01,
+					fModifier_Research: 0,
+					fModifier_MilitaryUpkeep: -0.02,
+					fModifier_AttackBonus: 0,
+					fModifier_DefenseBonus: 0,
+					fModifier_MovementPoints: 0
+				}
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_ChangeLeader",
+				iCivID: 45,
+				leaderOfCiv: {
+					sTag: "1787128726472kkiabmzy",
+					sName: "Paul I",
+					sImage: "paolo.png",
+					sWiki: "",
+					Year: 1901,
+					Month: 12,
+					Day: 14,
+					fModifier_PopGrowth: 0,
+					fModifier_EconomyGrowth: 0,
+					fModifier_IncomeTaxation: 0,
+					fModifier_IncomeProduction: 0,
+					fModifier_Administration: 0,
+					fModifier_Research: 0,
+					fModifier_MilitaryUpkeep: 0,
+					fModifier_AttackBonus: 0,
+					fModifier_DefenseBonus: 0,
+					fModifier_MovementPoints: 0
+				}
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_ChangeLeader",
+				iCivID: 171,
+				leaderOfCiv: {
+					sTag: "1786987638520xcznqhiq",
+					sName: "Nikos Zachariadis",
+					sImage: "nikosg.png",
+					sWiki: "",
+					Year: 1903,
+					Month: 4,
+					Day: 27,
+					fModifier_PopGrowth: 0,
+					fModifier_EconomyGrowth: 0,
+					fModifier_IncomeTaxation: 0,
+					fModifier_IncomeProduction: 0,
+					fModifier_Administration: 0,
+					fModifier_Research: 0,
+					fModifier_MilitaryUpkeep: 0,
+					fModifier_AttackBonus: 0,
+					fModifier_DefenseBonus: 0,
+					fModifier_MovementPoints: 0
+				}
+			}
+		],
+		iAIChance: 100,
+		sDesc: ""
+	}
+],
+eventDate_Since: {
+	iEventDay: 1,
+	iEventMonth: 1,
+	iEventYear: 1947
+},
+eventDate_Until: {
+	iEventDay: 1,
+	iEventMonth: 1,
+	iEventYear: 9999999
+},
+sEventSFX: "",
+isMission: false,
+missionDesc: "",
+tempTAG: ""
+}

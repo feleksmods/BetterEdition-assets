@@ -1,0 +1,65 @@
+{
+sEventName: "The Outbreak of the Greek Civil War",
+sEventTag: "1786822432206ibquxsij",
+sEventPicture: "",
+wasFired: false,
+wasTriedToRunOnce: false,
+repeatable: false,
+iCivID_Recipient: 45,
+event_PopUp: {
+	showPopUp: true,
+	sText: "gre.desc"
+},
+lTriggers: [
+	{
+		lConditions: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Conditions_CivExist",
+				conditionType: "AND",
+				iCivID: 171
+			}
+		],
+		triggerType: "AND"
+	}
+],
+lDecisions: [
+	{
+		sTitle: "To arms! Protect the Kingdom!",
+		lOutcomes: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_DeclareWar",
+				iCivID: 45,
+				iCivID2: 171
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_AddArmy",
+				iCivID: 45,
+				lProvinces: [ 6592, 2199, 1353, 2219, 3061, 7258, 2202, 2218, 7351 ],
+				iValue: 5572
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_AddArmy",
+				iCivID: -1,
+				lProvinces: [ 3063, 3197, 2197, 8058, 6871, 3060, 7430, 2227, 6590, 6924, 2222 ],
+				iValue: 4322
+			}
+		],
+		iAIChance: 100,
+		sDesc: ""
+	}
+],
+eventDate_Since: {
+	iEventDay: 1,
+	iEventMonth: 1,
+	iEventYear: 1947
+},
+eventDate_Until: {
+	iEventDay: 1,
+	iEventMonth: 1,
+	iEventYear: 9999999
+},
+sEventSFX: "",
+isMission: false,
+missionDesc: "",
+tempTAG: "HOI4_COLDWAR"
+}

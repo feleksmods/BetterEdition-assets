@@ -1,0 +1,78 @@
+{
+sEventName: "De Gasperi's Mission to the United States\n",
+sEventTag: "1787079116148itoriepd",
+sEventPicture: "",
+wasFired: false,
+wasTriedToRunOnce: false,
+repeatable: false,
+iCivID_Recipient: 14,
+event_PopUp: {
+	showPopUp: true,
+	sText: "p.desc"
+},
+lTriggers: [
+	{
+		lConditions: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Conditions_CivExist",
+				conditionType: "AND",
+				iCivID: 14
+			}
+		],
+		triggerType: "AND"
+	}
+],
+lDecisions: [
+	{
+		sTitle: "Secure the dollars and align with the West.\n",
+		lOutcomes: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_UpdateEconomyPerc",
+				iCivID: 14,
+				lProvinces: [ 2289, 2196, 12140, 2288, 116, 117, 119, 122, 120, 2287, 121, 265, 118, 2278, 3013, 6892, 2281, 3014, 2279, 2277, 2275, 2280, 2276, 196, 197, 199, 218, 222, 263, 198, 2291, 6895, 2298, 217, 219, 7455, 201, 6883, 6893, 221, 262, 264, 2292, 7350, 192, 7369, 195, 203, 7458, 364, 206, 205, 202, 220, 7454, 6884, 200, 6894, 204, 193, 6882, 211, 213, 207, 12141, 209, 194, 7356, 7219, 184, 7248, 216, 212, 190, 6881, 355, 7218, 7354, 160, 2294, 6557, 156, 7398, 158, 7456, 3712, 189, 188, 6830, 191, 210, 187, 7457, 185, 157, 154, 356, 186, 155, 6556, 169, 2290, 175, 176, 3682, 164, 163, 6890, 161, 6923, 166, 357, 368, 6901, 178, 2297, 167, 6908, 168, 6877, 7217, 2296, 180, 7424, 358, 359, 369, 7281, 7438, 367, 7421, 174, 177, 7422, 360, 151, 7247, 146, 172, 152, 361, 170, 6907, 171, 6876, 7362, 165, 6829, 6566, 162, 7253, 6652, 183, 215, 182, 214, 208, 6891, 7250, 354, 2295, 153, 159, 141, 3681, 6878, 144, 145, 6493, 7361, 148, 6875, 7375, 6860, 143, 140, 142, 2293, 11018, 7376, 149, 147, 150, 366, 173, 6498 ],
+				iValue: 5
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_UpdateEconomy",
+				iCivID: 14,
+				lProvinces: [],
+				iValue: 3750
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_IncreaseRelation",
+				iCivID: 22,
+				iCivID2: 14,
+				iValue: 35
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_UpdateHappiness",
+				iCivID: 14,
+				lProvinces: [],
+				iValue: 1
+			}
+		],
+		iAIChance: 100,
+		sDesc: ""
+	},
+	{
+		sTitle: "Refuse American terms and keep the coalition.\n",
+		lOutcomes: [],
+		iAIChance: 100,
+		sDesc: ""
+	}
+],
+eventDate_Since: {
+	iEventDay: 1,
+	iEventMonth: 1,
+	iEventYear: 9999999
+},
+eventDate_Until: {
+	iEventDay: 1,
+	iEventMonth: 1,
+	iEventYear: 9999999
+},
+sEventSFX: "",
+isMission: false,
+missionDesc: "",
+tempTAG: "HOI4_COLDWAR"
+}
