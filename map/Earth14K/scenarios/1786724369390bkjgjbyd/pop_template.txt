@@ -170,3 +170,43 @@ Tripolitania
 Iceland
 Greece
 bizone
+Macedon
+Montenegro
+Volhynia
+Vojvodina
+Slovenia
+Croatia-Slavonia
+Bosnia
+Moldavia
+Carpathian Empire
+Transylvania
+Vaduz
+Austria
+Federal Republic of Germany
+Cyprus
+Ukraine
+Lithuania
+Latvia
+Estonia
+Karelia
+Sami
+Valois
+Occitania
+Brittany
+Cornwall
+Wales
+Scotland
+Mato Grosso
+Sicily
+Sardinia
+Corsica
+Trent
+Basque Country
+Catalonia
+Galicia
+Andalusia
+Leon
+Maiotai
+Majorca
+Czechia
+Slovakia
