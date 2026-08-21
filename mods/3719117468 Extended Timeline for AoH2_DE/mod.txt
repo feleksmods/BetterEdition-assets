@@ -1,8 +1,0 @@
-{
-	Name: "Extended Timeline for AoH2:DE",
-	Description: "Extended Timeline adds 46 new scenarios to the main Earth14k map in AoH2:DE. Over new 1660 civilizations, and 11 religions.",
-	
-	Tags: [ "Extended Timeline", "Flags", "Events", "Missions", "Scenario", "Scenarios", "Civilizations", "Map", "Religions", "Formable Civilizations" ],
-	
-	ChangeNote: "First release",
-}
