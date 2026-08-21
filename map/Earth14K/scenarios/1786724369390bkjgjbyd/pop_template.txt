@@ -155,11 +155,8 @@ Nepal
 Makran
 Balochistan
 Jammu & Kashmir
-Cricca Ma
 China
 Sikkim
-East Turkestan Republic
-Hyderabad
 Saar Basin
 Trieste
 Palestine
@@ -210,3 +207,27 @@ Maiotai
 Majorca
 Czechia
 Slovakia
+Belarus
+Azerbaijan
+Armenia
+Kurdistan
+Georgia
+Caucasian Empire
+Kazakhstan
+Turkmenistan
+Uzbekistan
+Kirghizia
+North Korea
+South Korea
+Japan
+India
+Pakistan
+Bangladesh
+Xinjiang
+East Turkestan Republic
+Xibei San Ma
+Shanxi
+Yunnan
+Guangxi
+Khanate of Kalat
+Inner Mongolia

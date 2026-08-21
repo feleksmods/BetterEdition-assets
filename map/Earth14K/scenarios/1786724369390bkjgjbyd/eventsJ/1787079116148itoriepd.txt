@@ -62,9 +62,9 @@ lDecisions: [
 	}
 ],
 eventDate_Since: {
-	iEventDay: 1,
+	iEventDay: 5,
 	iEventMonth: 1,
-	iEventYear: 9999999
+	iEventYear: 1947
 },
 eventDate_Until: {
 	iEventDay: 1,

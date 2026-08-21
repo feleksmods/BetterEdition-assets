@@ -1,0 +1,54 @@
+{
+sEventName: "The Treaty of Dunkirk",
+sEventTag: "1787336702859xpmqusvs",
+sEventPicture: "5.png",
+wasFired: false,
+wasTriedToRunOnce: false,
+repeatable: false,
+iCivID_Recipient: 0,
+event_PopUp: {
+	showPopUp: true,
+	sText: "dunkirk.desc"
+},
+lTriggers: [
+	{
+		lConditions: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Conditions_CivExist",
+				conditionType: "AND",
+				iCivID: 54
+			}
+		],
+		triggerType: "AND"
+	}
+],
+lDecisions: [
+	{
+		sTitle: "We must not repeat the mistakes again.",
+		lOutcomes: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_NonAggression",
+				iCivID: 10,
+				iCivID2: 1,
+				iValue: 39
+			}
+		],
+		iAIChance: 100,
+		sDesc: ""
+	}
+],
+eventDate_Since: {
+	iEventDay: 4,
+	iEventMonth: 3,
+	iEventYear: 1947
+},
+eventDate_Until: {
+	iEventDay: 1,
+	iEventMonth: 1,
+	iEventYear: 9999999
+},
+sEventSFX: "",
+isMission: false,
+missionDesc: "",
+tempTAG: "HOI4_WORLD_NEWS"
+}

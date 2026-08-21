@@ -92,15 +92,21 @@
 			BG_IMG: "super_event_hoi4.png",
 			DEFAULT_IMG: "newsDE_Default.png",
 			
-			imgPosX: 430,
-			imgPosY: 140,
-			imgWidth: 500,
-			imgHeight: 320,
+		    imgPosX: 432,
+	        imgPosY: 147,
+	        imgWidth: 494,
+	        imgHeight: 310,
+
+
+
+
 			
-			titlePosX: 220,
-			titlePosY: 55,
-			titleWidth: 530,
-			titleHeight: 45,
+			titlePosX: 65,
+	        titlePosY: 68,
+	        titleWidth: 840,
+	        titleHeight: 50,
+
+
 			titleColor: [ 35, 35, 35 ],
 			
 			descPosX: 55,

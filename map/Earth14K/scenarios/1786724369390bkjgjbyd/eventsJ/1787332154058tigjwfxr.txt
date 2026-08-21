@@ -1,0 +1,65 @@
+{
+sEventName: "Britain’s Ultimatum on India",
+sEventTag: "1787332154058tigjwfxr",
+sEventPicture: "4.png",
+wasFired: false,
+wasTriedToRunOnce: false,
+repeatable: false,
+iCivID_Recipient: 0,
+event_PopUp: {
+	showPopUp: true,
+	sText: "india.desc"
+},
+lTriggers: [
+	{
+		lConditions: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Conditions_CivExist",
+				conditionType: "AND",
+				iCivID: 153
+			}
+		],
+		triggerType: "AND"
+	}
+],
+lDecisions: [
+	{
+		sTitle: "By now, it’s clear.",
+		lOutcomes: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_IncreaseRelation",
+				iCivID: 1,
+				iCivID2: 153,
+				iValue: -25
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_UpdateHappinessOfCiv",
+				iCivID: 153,
+				iValue: -15
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_DevLevel",
+				iCivID: 153,
+				lProvinces: [],
+				iValue: -3
+			}
+		],
+		iAIChance: 100,
+		sDesc: ""
+	}
+],
+eventDate_Since: {
+	iEventDay: 20,
+	iEventMonth: 2,
+	iEventYear: 1947
+},
+eventDate_Until: {
+	iEventDay: 1,
+	iEventMonth: 1,
+	iEventYear: 9999999
+},
+sEventSFX: "",
+isMission: false,
+missionDesc: "",
+tempTAG: "HOI4_WORLD_NEWS"
+}
