@@ -28,7 +28,7 @@ lDecisions: [
 		lOutcomes: [
 			{
 				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_ChangeLeader",
-				iCivID: 158,
+				iCivID: 157,
 				leaderOfCiv: {
 					sTag: "1540683094279jhnierol",
 					sName: "Chiang Kai-Shek",
@@ -166,7 +166,7 @@ lDecisions: [
 			},
 			{
 				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_ChangeLeader",
-				iCivID: 168,
+				iCivID: 167,
 				leaderOfCiv: {
 					sTag: "1786987638520xcznqhiq",
 					sName: "Nikos Zachariadis",

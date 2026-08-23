@@ -114,7 +114,6 @@ Cyprus
 Malta
 Ceylon
 Aden
-Kuwait
 Trucial States
 French Indochina
 Newfoundland
@@ -231,3 +230,7 @@ Yunnan
 Guangxi
 Khanate of Kalat
 Inner Mongolia
+Qatar
+Bahrain
+Kuwait
+Dutch East Indies

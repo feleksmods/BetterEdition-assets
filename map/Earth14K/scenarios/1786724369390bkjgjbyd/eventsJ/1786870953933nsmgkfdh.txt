@@ -16,7 +16,7 @@ lTriggers: [
 			{
 				class: "age.of.civilizations2.jakowski.lukasz.Event_Conditions_CivExist",
 				conditionType: "AND",
-				iCivID: 138
+				iCivID: 137
 			}
 		],
 		triggerType: "AND"
