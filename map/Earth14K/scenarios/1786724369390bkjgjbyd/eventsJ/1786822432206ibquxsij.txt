@@ -16,7 +16,7 @@ lTriggers: [
 			{
 				class: "age.of.civilizations2.jakowski.lukasz.Event_Conditions_CivExist",
 				conditionType: "AND",
-				iCivID: 167
+				iCivID: 153
 			}
 		],
 		triggerType: "AND"
@@ -29,7 +29,7 @@ lDecisions: [
 			{
 				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_DeclareWar",
 				iCivID: 45,
-				iCivID2: 167
+				iCivID2: 153
 			},
 			{
 				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_AddArmy",

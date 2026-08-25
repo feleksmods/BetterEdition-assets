@@ -16,7 +16,7 @@ lTriggers: [
 			{
 				class: "age.of.civilizations2.jakowski.lukasz.Event_Conditions_CivExist",
 				conditionType: "AND",
-				iCivID: 152
+				iCivID: 138
 			}
 		],
 		triggerType: "AND"
@@ -29,17 +29,17 @@ lDecisions: [
 			{
 				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_IncreaseRelation",
 				iCivID: 1,
-				iCivID2: 152,
+				iCivID2: 138,
 				iValue: -25
 			},
 			{
 				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_UpdateHappinessOfCiv",
-				iCivID: 152,
+				iCivID: 138,
 				iValue: -15
 			},
 			{
 				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_DevLevel",
-				iCivID: 152,
+				iCivID: 138,
 				lProvinces: [],
 				iValue: -3
 			}

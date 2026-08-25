@@ -60,22 +60,9 @@ Philippines
 New Zealand
 Australia
 Tibet
-Ubangi-Shari
-Congo
 Belgian Congo
 Rwanda
 Burundi
-Gabon
-Cameroun
-Chad
-Niger
-Dahomey
-Togoland
-Ivory Coast
-Guinea
-Senegal
-Sudan
-Mauritania
 Morocco
 Tunisia
 Algeria
@@ -115,7 +102,6 @@ Malta
 Ceylon
 Aden
 Trucial States
-French Indochina
 Newfoundland
 Timor
 Puerto Rico
@@ -235,3 +221,7 @@ Bahrain
 Kuwait
 Dutch East Indies
 Eritrea
+French West Africa
+French Equatorial Africa
+French Indochina
+Vietnam

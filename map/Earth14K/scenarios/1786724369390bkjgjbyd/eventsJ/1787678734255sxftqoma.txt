@@ -1,0 +1,95 @@
+{
+sEventName: "The 1947 Polish Legislative Election",
+sEventTag: "1787678734255sxftqoma",
+sEventPicture: "",
+wasFired: false,
+wasTriedToRunOnce: false,
+repeatable: false,
+iCivID_Recipient: 119,
+event_PopUp: {
+	showPopUp: true,
+	sText: "pole.desc"
+},
+lTriggers: [
+	{
+		lConditions: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Conditions_CivExist",
+				conditionType: "AND",
+				iCivID: 119
+			}
+		],
+		triggerType: "AND"
+	}
+],
+lDecisions: [
+	{
+		sTitle: "The Bloc has won",
+		lOutcomes: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_ChangeIdeology",
+				iCivID: 119,
+				iValue: 3
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_ChangeLeader",
+				iCivID: 119,
+				leaderOfCiv: {
+					sTag: "1787131353030erakzlov",
+					sName: "Bolesław Bierut",
+					sImage: "bole.png",
+					sWiki: "",
+					Year: 1892,
+					Month: 4,
+					Day: 18,
+					lTraits: null,
+					fModifier_PopGrowth: 0,
+					fModifier_EconomyGrowth: 0,
+					fModifier_IncomeTaxation: 0,
+					fModifier_IncomeProduction: 0,
+					fModifier_Administration: 0,
+					fModifier_Research: 0,
+					fModifier_MilitaryUpkeep: 0,
+					fModifier_AttackBonus: 0,
+					fModifier_DefenseBonus: 0,
+					fModifier_MovementPoints: 0
+				}
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_IncreaseRelation",
+				iCivID: 1,
+				iCivID2: 119,
+				iValue: -31
+			}
+		],
+		iAIChance: 100,
+		sDesc: ""
+	},
+	{
+		sTitle: "Defy Soviet pressure",
+		lOutcomes: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_ChangeIdeology",
+				iCivID: 119,
+				iValue: 6
+			}
+		],
+		iAIChance: 100,
+		sDesc: ""
+	}
+],
+eventDate_Since: {
+	iEventDay: 19,
+	iEventMonth: 1,
+	iEventYear: 1947
+},
+eventDate_Until: {
+	iEventDay: 1,
+	iEventMonth: 1,
+	iEventYear: 9999999
+},
+sEventSFX: "",
+isMission: false,
+missionDesc: "",
+tempTAG: "HOI4_COLDWAR"
+}

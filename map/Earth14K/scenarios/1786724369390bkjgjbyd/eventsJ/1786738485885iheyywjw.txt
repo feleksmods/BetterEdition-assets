@@ -28,7 +28,7 @@ lDecisions: [
 		lOutcomes: [
 			{
 				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_ChangeLeader",
-				iCivID: 157,
+				iCivID: 143,
 				leaderOfCiv: {
 					sTag: "1540683094279jhnierol",
 					sName: "Chiang Kai-Shek",
@@ -37,6 +37,7 @@ lDecisions: [
 					Year: 1887,
 					Month: 10,
 					Day: 31,
+					lTraits: null,
 					fModifier_PopGrowth: 0.02,
 					fModifier_EconomyGrowth: 0.01,
 					fModifier_IncomeTaxation: 0,
@@ -60,6 +61,7 @@ lDecisions: [
 					Year: 1884,
 					Month: 8,
 					Day: 27,
+					lTraits: null,
 					fModifier_PopGrowth: 0,
 					fModifier_EconomyGrowth: 0,
 					fModifier_IncomeTaxation: 0,
@@ -83,6 +85,7 @@ lDecisions: [
 					Year: 1893,
 					Month: 12,
 					Day: 26,
+					lTraits: null,
 					fModifier_PopGrowth: 0.01,
 					fModifier_EconomyGrowth: 0.02,
 					fModifier_IncomeTaxation: 0,
@@ -106,6 +109,7 @@ lDecisions: [
 					Year: 1884,
 					Month: 5,
 					Day: 8,
+					lTraits: null,
 					fModifier_PopGrowth: 0,
 					fModifier_EconomyGrowth: 0.049999997,
 					fModifier_IncomeTaxation: 0,
@@ -129,6 +133,7 @@ lDecisions: [
 					Year: 1881,
 					Month: 4,
 					Day: 3,
+					lTraits: null,
 					fModifier_PopGrowth: 0.01,
 					fModifier_EconomyGrowth: 0,
 					fModifier_IncomeTaxation: 0,
@@ -152,6 +157,7 @@ lDecisions: [
 					Year: 1901,
 					Month: 12,
 					Day: 14,
+					lTraits: null,
 					fModifier_PopGrowth: 0,
 					fModifier_EconomyGrowth: 0,
 					fModifier_IncomeTaxation: 0,
@@ -166,7 +172,7 @@ lDecisions: [
 			},
 			{
 				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_ChangeLeader",
-				iCivID: 167,
+				iCivID: 153,
 				leaderOfCiv: {
 					sTag: "1786987638520xcznqhiq",
 					sName: "Nikos Zachariadis",
@@ -175,6 +181,7 @@ lDecisions: [
 					Year: 1903,
 					Month: 4,
 					Day: 27,
+					lTraits: null,
 					fModifier_PopGrowth: 0,
 					fModifier_EconomyGrowth: 0,
 					fModifier_IncomeTaxation: 0,

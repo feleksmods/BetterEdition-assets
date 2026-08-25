@@ -1,0 +1,90 @@
+{
+sEventName: "The Election of Vincent Auriol",
+sEventTag: "1787676688755tuievydm",
+sEventPicture: "auriol.png",
+wasFired: false,
+wasTriedToRunOnce: false,
+repeatable: false,
+iCivID_Recipient: 10,
+event_PopUp: {
+	showPopUp: true,
+	sText: "auriol.desc"
+},
+lTriggers: [
+	{
+		lConditions: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Conditions_CivExist",
+				conditionType: "AND",
+				iCivID: 10
+			}
+		],
+		triggerType: "AND"
+	}
+],
+lDecisions: [
+	{
+		sTitle: "Vive la Quatrième République",
+		lOutcomes: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_UpdateHappiness",
+				iCivID: 10,
+				lProvinces: [ 323, 295, 3612, 277, 275, 128, 3571, 123, 138, 7357, 317, 371, 373, 350, 327, 3637, 286, 7385, 283, 225, 7225, 251, 247, 345, 7268, 342, 6910, 6491, 284, 291, 12142, 293 ],
+				iValue: 10
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_ChangeLeader",
+				iCivID: 10,
+				leaderOfCiv: {
+					sTag: "1786739049881bootijig",
+					sName: "Vincent Auriol",
+					sImage: "auriol.png",
+					sWiki: "",
+					Year: 1884,
+					Month: 8,
+					Day: 27,
+					lTraits: null,
+					fModifier_PopGrowth: 0,
+					fModifier_EconomyGrowth: 0,
+					fModifier_IncomeTaxation: 0,
+					fModifier_IncomeProduction: 0,
+					fModifier_Administration: 0,
+					fModifier_Research: 0,
+					fModifier_MilitaryUpkeep: 0,
+					fModifier_AttackBonus: 0,
+					fModifier_DefenseBonus: 0,
+					fModifier_MovementPoints: 0
+				}
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_DevLevel",
+				iCivID: 10,
+				lProvinces: [ 377, 347, 3590, 547, 6569, 298, 295, 12518, 6497, 12517, 6496, 230, 231, 7273, 7274, 289, 256, 6489, 252, 253, 272, 273, 274, 261, 293, 3591, 3588, 286, 287, 3612, 6490, 238, 284, 316, 546, 299, 3613, 288, 7385, 282, 228, 6580, 225, 227, 6838, 239, 7386, 236, 235, 237, 240, 224, 3607, 131, 3605, 133, 3606, 3604, 363, 6834, 285, 6491, 300, 292, 294, 324, 3596, 322, 8052, 3597, 335, 339, 338, 3594, 344, 6582, 345, 6568, 279, 7389, 280, 12142, 348, 260, 291, 278, 351, 352, 949, 3593, 820, 3589, 277, 243, 242, 241, 7225, 125, 127, 126 ],
+				iValue: 1
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_UpdateHappiness",
+				iCivID: 10,
+				lProvinces: [ 3613, 283, 240, 239, 128, 226, 227, 12517, 6496, 6567, 296, 6910, 299, 7274, 290, 289, 7389, 7391, 253, 12142, 349, 350, 351, 375, 346, 344, 345, 292, 3612, 6490, 242, 233, 236, 7386, 6838, 7226, 6580, 225, 6834, 133, 7360, 139, 314, 316, 319, 3595, 6912, 321, 322, 326, 8052, 337, 338, 339, 3637, 561, 7268, 6503, 371, 372, 370, 260, 293, 3591, 300, 297, 295, 224, 3607, 130, 129, 7227, 126, 6573 ],
+				iValue: -3
+			}
+		],
+		iAIChance: 100,
+		sDesc: ""
+	}
+],
+eventDate_Since: {
+	iEventDay: 16,
+	iEventMonth: 1,
+	iEventYear: 1947
+},
+eventDate_Until: {
+	iEventDay: 1,
+	iEventMonth: 1,
+	iEventYear: 9999999
+},
+sEventSFX: "",
+isMission: false,
+missionDesc: "",
+tempTAG: "HOI4_WORLD_NEWS"
+}
