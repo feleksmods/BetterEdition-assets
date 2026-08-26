@@ -852,7 +852,7 @@
 				},
 				{
 					"condition": "TECH_LEVEL_ABOVE",
-					"value": 2
+					"value": 0.2
 				}
 			],
 			"cooldownTurns": 20,
@@ -1126,6 +1126,92 @@
 				{
 					"type": "HAPPINESS_PERCENT",
 					"value": 3
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_NUCLEAR_RESEARCH_GRANT",
+			"nameKey": "BE_DEC_NUCLEAR_RESEARCH_GRANT_Name",
+			"descKey": "BE_DEC_NUCLEAR_RESEARCH_GRANT_Desc",
+			"icon": "research",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "TECH_LEVEL_ABOVE",
+					"value": 0.55
+				}
+			],
+			"cooldownTurns": 20,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 3000
+				}
+			],
+			"effects": [
+				{
+					"type": "TECH_LEVEL_PERCENT",
+					"value": 4
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_URANIUM_BLACK_MARKET",
+			"nameKey": "BE_DEC_URANIUM_BLACK_MARKET_Name",
+			"descKey": "BE_DEC_URANIUM_BLACK_MARKET_Desc",
+			"icon": "topUranium",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "TECH_LEVEL_ABOVE",
+					"value": 0.7
+				}
+			],
+			"cooldownTurns": 25,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 8000
+				}
+			],
+			"effects": [
+				{
+					"type": "URANIUM_FLAT",
+					"value": 80
+				}
+			]
+		},
+		{
+			"id": "BE_DEC_NUCLEAR_TEST",
+			"nameKey": "BE_DEC_NUCLEAR_TEST_Name",
+			"descKey": "BE_DEC_NUCLEAR_TEST_Desc",
+			"icon": "nuke",
+			"type": "CONDITIONAL",
+			"conditions": [
+				{
+					"condition": "TECH_LEVEL_ABOVE",
+					"value": 0.8
+				},
+				{
+					"condition": "URANIUM_RESERVES_ABOVE",
+					"value": 50
+				}
+			],
+			"cooldownTurns": 30,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 2000
+				}
+			],
+			"effects": [
+				{
+					"type": "STABILITY_PERCENT",
+					"value": 8
+				},
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": 4
 				}
 			]
 		}

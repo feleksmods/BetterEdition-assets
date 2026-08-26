@@ -1542,6 +1542,44 @@
       "condition": "FORM_TAG",
       "tag": "mog",
       "icon": "randomCivilizationFlag"
+    },
+    {
+      "id": "BE_URANIUM_MINE_1",
+      "category": "Construction",
+      "nameKey": "BEAch_UraniumMine1",
+      "descKey": "BEAch_UraniumMine1_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "uraniummines",
+      "threshold": 1
+    },
+    {
+      "id": "BE_URANIUM_MINE_2",
+      "category": "Construction",
+      "nameKey": "BEAch_UraniumMine2",
+      "descKey": "BEAch_UraniumMine2_Desc",
+      "icon": "infoBuild",
+      "condition": "BUILDING_COUNT",
+      "building": "uraniummines",
+      "threshold": 3
+    },
+    {
+      "id": "BE_NUKE_1",
+      "category": "Military",
+      "nameKey": "BEAch_Nuke1",
+      "descKey": "BEAch_Nuke1_Desc",
+      "icon": "nuke",
+      "condition": "NUKES_OWNED",
+      "threshold": 1
+    },
+    {
+      "id": "BE_NUKE_2",
+      "category": "Military",
+      "nameKey": "BEAch_Nuke2",
+      "descKey": "BEAch_Nuke2_Desc",
+      "icon": "nuke",
+      "condition": "NUKES_OWNED",
+      "threshold": 4
     }
   ]
 }
