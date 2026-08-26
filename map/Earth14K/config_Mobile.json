@@ -1,5 +1,5 @@
 {
-	Ma​p: [
+	Map: [
 		{
 			MapName: "Earth 14K",
 			Author: "Łukasz Jakowski",
@@ -17,5 +17,5 @@
 		},
 	],
 	
-	Age_of_Civilizations: Ma​p
+	Age_of_Civilizations: Map
 }
