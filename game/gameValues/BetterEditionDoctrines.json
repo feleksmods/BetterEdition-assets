@@ -1,0 +1,332 @@
+{
+	"Doctrines": [
+		{
+			"id": "BE_DOC_OFF_1",
+			"branch": "OFFENSIVE",
+			"tier": 1,
+			"cost": 5,
+			"nameKey": "BE_DOC_OFF_1_Name",
+			"descKey": "BE_DOC_OFF_1_Desc",
+			"effects": [
+				{
+					"type": "ATTACK_BONUS",
+					"value": 5.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_OFF_2",
+			"branch": "OFFENSIVE",
+			"tier": 2,
+			"cost": 3,
+			"nameKey": "BE_DOC_OFF_2_Name",
+			"descKey": "BE_DOC_OFF_2_Desc",
+			"effects": [
+				{
+					"type": "ATTACK_BONUS",
+					"value": 3.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_OFF_3",
+			"branch": "OFFENSIVE",
+			"tier": 3,
+			"cost": 2,
+			"nameKey": "BE_DOC_OFF_3_Name",
+			"descKey": "BE_DOC_OFF_3_Desc",
+			"effects": [
+				{
+					"type": "ATTACK_BONUS",
+					"value": 2.0
+				},
+				{
+					"type": "MOVEMENT_POINTS",
+					"value": 4.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_OFF_4",
+			"branch": "OFFENSIVE",
+			"tier": 4,
+			"cost": 2,
+			"nameKey": "BE_DOC_OFF_4_Name",
+			"descKey": "BE_DOC_OFF_4_Desc",
+			"effects": [
+				{
+					"type": "ATTACK_BONUS",
+					"value": 2.0
+				},
+				{
+					"type": "MILITARY_UPKEEP",
+					"value": -2.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_OFF_5",
+			"branch": "OFFENSIVE",
+			"tier": 5,
+			"cost": 3,
+			"nameKey": "BE_DOC_OFF_5_Name",
+			"descKey": "BE_DOC_OFF_5_Desc",
+			"effects": [
+				{
+					"type": "ATTACK_BONUS",
+					"value": 3.0
+				},
+				{
+					"type": "STABILITY",
+					"value": 3.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_DEF_1",
+			"branch": "DEFENSIVE",
+			"tier": 1,
+			"cost": 5,
+			"nameKey": "BE_DOC_DEF_1_Name",
+			"descKey": "BE_DOC_DEF_1_Desc",
+			"effects": [
+				{
+					"type": "DEFENSE_BONUS",
+					"value": 5.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_DEF_2",
+			"branch": "DEFENSIVE",
+			"tier": 2,
+			"cost": 3,
+			"nameKey": "BE_DOC_DEF_2_Name",
+			"descKey": "BE_DOC_DEF_2_Desc",
+			"effects": [
+				{
+					"type": "DEFENSE_BONUS",
+					"value": 3.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_DEF_3",
+			"branch": "DEFENSIVE",
+			"tier": 3,
+			"cost": 2,
+			"nameKey": "BE_DOC_DEF_3_Name",
+			"descKey": "BE_DOC_DEF_3_Desc",
+			"effects": [
+				{
+					"type": "DEFENSE_BONUS",
+					"value": 2.0
+				},
+				{
+					"type": "MILITARY_UPKEEP",
+					"value": -2.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_DEF_4",
+			"branch": "DEFENSIVE",
+			"tier": 4,
+			"cost": 2,
+			"nameKey": "BE_DOC_DEF_4_Name",
+			"descKey": "BE_DOC_DEF_4_Desc",
+			"effects": [
+				{
+					"type": "DEFENSE_BONUS",
+					"value": 2.0
+				},
+				{
+					"type": "DISEASE_RESISTANCE",
+					"value": 5.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_DEF_5",
+			"branch": "DEFENSIVE",
+			"tier": 5,
+			"cost": 3,
+			"nameKey": "BE_DOC_DEF_5_Name",
+			"descKey": "BE_DOC_DEF_5_Desc",
+			"effects": [
+				{
+					"type": "DEFENSE_BONUS",
+					"value": 3.0
+				},
+				{
+					"type": "STABILITY",
+					"value": 3.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_MOB_1",
+			"branch": "MOBILE",
+			"tier": 1,
+			"cost": 5,
+			"nameKey": "BE_DOC_MOB_1_Name",
+			"descKey": "BE_DOC_MOB_1_Desc",
+			"effects": [
+				{
+					"type": "MOVEMENT_POINTS",
+					"value": 7.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_MOB_2",
+			"branch": "MOBILE",
+			"tier": 2,
+			"cost": 3,
+			"nameKey": "BE_DOC_MOB_2_Name",
+			"descKey": "BE_DOC_MOB_2_Desc",
+			"effects": [
+				{
+					"type": "MOVEMENT_POINTS",
+					"value": 5.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_MOB_3",
+			"branch": "MOBILE",
+			"tier": 3,
+			"cost": 2,
+			"nameKey": "BE_DOC_MOB_3_Name",
+			"descKey": "BE_DOC_MOB_3_Desc",
+			"effects": [
+				{
+					"type": "MOVEMENT_POINTS",
+					"value": 4.0
+				},
+				{
+					"type": "MILITARY_UPKEEP",
+					"value": -2.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_MOB_4",
+			"branch": "MOBILE",
+			"tier": 4,
+			"cost": 2,
+			"nameKey": "BE_DOC_MOB_4_Name",
+			"descKey": "BE_DOC_MOB_4_Desc",
+			"effects": [
+				{
+					"type": "MOVEMENT_POINTS",
+					"value": 4.0
+				},
+				{
+					"type": "ATTACK_BONUS",
+					"value": 2.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_MOB_5",
+			"branch": "MOBILE",
+			"tier": 5,
+			"cost": 3,
+			"nameKey": "BE_DOC_MOB_5_Name",
+			"descKey": "BE_DOC_MOB_5_Desc",
+			"effects": [
+				{
+					"type": "MOVEMENT_POINTS",
+					"value": 5.0
+				},
+				{
+					"type": "STABILITY",
+					"value": 3.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_ATR_1",
+			"branch": "ATTRITION",
+			"tier": 1,
+			"cost": 5,
+			"nameKey": "BE_DOC_ATR_1_Name",
+			"descKey": "BE_DOC_ATR_1_Desc",
+			"effects": [
+				{
+					"type": "MILITARY_UPKEEP",
+					"value": -5.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_ATR_2",
+			"branch": "ATTRITION",
+			"tier": 2,
+			"cost": 3,
+			"nameKey": "BE_DOC_ATR_2_Name",
+			"descKey": "BE_DOC_ATR_2_Desc",
+			"effects": [
+				{
+					"type": "MILITARY_UPKEEP",
+					"value": -3.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_ATR_3",
+			"branch": "ATTRITION",
+			"tier": 3,
+			"cost": 2,
+			"nameKey": "BE_DOC_ATR_3_Name",
+			"descKey": "BE_DOC_ATR_3_Desc",
+			"effects": [
+				{
+					"type": "MILITARY_UPKEEP",
+					"value": -2.0
+				},
+				{
+					"type": "DEFENSE_BONUS",
+					"value": 2.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_ATR_4",
+			"branch": "ATTRITION",
+			"tier": 4,
+			"cost": 2,
+			"nameKey": "BE_DOC_ATR_4_Name",
+			"descKey": "BE_DOC_ATR_4_Desc",
+			"effects": [
+				{
+					"type": "MILITARY_UPKEEP",
+					"value": -2.0
+				},
+				{
+					"type": "DISEASE_RESISTANCE",
+					"value": 5.0
+				}
+			]
+		},
+		{
+			"id": "BE_DOC_ATR_5",
+			"branch": "ATTRITION",
+			"tier": 5,
+			"cost": 3,
+			"nameKey": "BE_DOC_ATR_5_Name",
+			"descKey": "BE_DOC_ATR_5_Desc",
+			"effects": [
+				{
+					"type": "MILITARY_UPKEEP",
+					"value": -3.0
+				},
+				{
+					"type": "STABILITY",
+					"value": 3.0
+				}
+			]
+		}
+	]
+}
