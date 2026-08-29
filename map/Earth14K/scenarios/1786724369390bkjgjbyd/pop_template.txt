@@ -225,3 +225,36 @@ French West Africa
 French Equatorial Africa
 French Indochina
 Vietnam
+Israel
+Sierra Leone
+Guinea-Bissau
+Gambia
+Morocco
+Western Sahara
+Libya
+Ghana
+Nigeria
+Sudan
+Djibouti
+Somalia
+Somaliland
+Uganda
+Kenya
+Tanzania
+Malawi
+Zimbabwe
+Zambia
+Angola
+South Sudan
+South Africa
+DR Congo
+Gabon
+Republic of the Congo
+Cameroon
+Central African Republic
+Chad
+Equatorial Guinea
+Benin
+Togo
+Ivory Coast
+Madagascar

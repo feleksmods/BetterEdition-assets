@@ -1,0 +1,67 @@
+{
+sEventName: "Birth of Israel ",
+sEventTag: "1787936216921vxasjdbz",
+sEventPicture: "8.png",
+wasFired: false,
+wasTriedToRunOnce: false,
+repeatable: false,
+iCivID_Recipient: 0,
+event_PopUp: {
+	showPopUp: true,
+	sText: "israelbirth.desc"
+},
+lTriggers: [
+	{
+		lConditions: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Conditions_ControlsProvinces",
+				conditionType: "AND",
+				iCivID: 147,
+				lProvinces: [ 6086, 8065, 8068, 8066, 3713, 12569, 6797, 4743, 7323, 3716, 12580, 3715, 3714, 3720, 4686, 5007, 8064, 12458, 3721, 8070, 3722 ],
+				iPercentage: 100
+			}
+		],
+		triggerType: "AND"
+	}
+],
+lDecisions: [
+	{
+		sTitle: "You will regret it.",
+		lOutcomes: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_CreateVassal",
+				iCivID: 228,
+				iCivID2: -1,
+				lProvinces: [ 7323, 3714, 8066, 6797, 3713, 12569, 12458, 8064, 8070, 3722, 5007, 3721, 12580 ]
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_IncreaseRelation",
+				iCivID: 147,
+				iCivID2: 228,
+				iValue: -71
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_AddCore",
+				iCivID: 228,
+				lProvinces: [ 3721, 12458, 8064, 8070, 5007, 7323, 12580, 3714, 8066, 8068, 3713, 6797, 12569, 3722 ]
+			}
+		],
+		iAIChance: 100,
+		sDesc: ""
+	}
+],
+eventDate_Since: {
+	iEventDay: 14,
+	iEventMonth: 5,
+	iEventYear: 1948
+},
+eventDate_Until: {
+	iEventDay: 1,
+	iEventMonth: 1,
+	iEventYear: 9999999
+},
+sEventSFX: "",
+isMission: false,
+missionDesc: "",
+tempTAG: "HOI4_WORLD_NEWS"
+}

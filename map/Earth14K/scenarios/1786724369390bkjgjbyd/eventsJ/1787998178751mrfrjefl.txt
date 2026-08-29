@@ -1,0 +1,65 @@
+{
+sEventName: "Madagascar Rebellion",
+sEventTag: "1787998178751mrfrjefl",
+sEventPicture: "12.png",
+wasFired: false,
+wasTriedToRunOnce: false,
+repeatable: false,
+iCivID_Recipient: 0,
+event_PopUp: {
+	showPopUp: true,
+	sText: "madagascarrebellion.desc"
+},
+lTriggers: [
+	{
+		lConditions: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Conditions_CivExist",
+				conditionType: "AND",
+				iCivID: 69
+			}
+		],
+		triggerType: "AND"
+	}
+],
+lDecisions: [
+	{
+		sTitle: "Crush Them",
+		lOutcomes: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_CreateVassal",
+				iCivID: 260,
+				iCivID2: -1,
+				lProvinces: [ 12242, 3552, 3553, 3509, 3538, 3534, 12243, 3551 ]
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_DeclareWar",
+				iCivID: 69,
+				iCivID2: 260
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_AddArmy",
+				iCivID: 260,
+				lProvinces: [ 3551, 3552, 3509, 3550, 12242, 3538 ],
+				iValue: 10729
+			}
+		],
+		iAIChance: 100,
+		sDesc: ""
+	}
+],
+eventDate_Since: {
+	iEventDay: 29,
+	iEventMonth: 3,
+	iEventYear: 1947
+},
+eventDate_Until: {
+	iEventDay: 1,
+	iEventMonth: 1,
+	iEventYear: 9999999
+},
+sEventSFX: "",
+isMission: false,
+missionDesc: "",
+tempTAG: "HOI4_WORLD_NEWS"
+}

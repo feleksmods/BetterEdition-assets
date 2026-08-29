@@ -1,0 +1,65 @@
+{
+sEventName: "Chinese Civil War - Spring Offensive",
+sEventTag: "1787991955586vfedswrf",
+sEventPicture: "11.png",
+wasFired: false,
+wasTriedToRunOnce: false,
+repeatable: false,
+iCivID_Recipient: 0,
+event_PopUp: {
+	showPopUp: true,
+	sText: "chinesecivilwar.desc"
+},
+lTriggers: [
+	{
+		lConditions: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Conditions_CivExist",
+				conditionType: "AND",
+				iCivID: 57
+			}
+		],
+		triggerType: "AND"
+	}
+],
+lDecisions: [
+	{
+		sTitle: " Wèi Guó",
+		lOutcomes: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_DeclareWar",
+				iCivID: 57,
+				iCivID2: 143
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_Occupy",
+				iCivID: 57,
+				iCivID_ControlledBy: -1,
+				lProvinces: [ 2817, 6002, 6299, 6287, 2776, 2843, 6370, 6423, 6415, 2910, 2855, 2821, 11099, 11102, 10723, 10722, 11094, 10719, 10721, 6265, 6814, 2743 ]
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_AddArmy",
+				iCivID: 57,
+				lProvinces: [ 2743, 2744, 6265, 6264, 10725, 10719, 6818, 11087, 11089, 11092, 6279, 6275, 6443, 6283, 6284, 6285, 6250, 2755, 2754, 6272, 2753, 3482, 2752, 6254, 6001, 6003, 6362, 6366, 6397, 6403, 6294, 2847, 2906, 6307, 6711 ],
+				iValue: 20260
+			}
+		],
+		iAIChance: 100,
+		sDesc: ""
+	}
+],
+eventDate_Since: {
+	iEventDay: 24,
+	iEventMonth: 3,
+	iEventYear: 1947
+},
+eventDate_Until: {
+	iEventDay: 1,
+	iEventMonth: 1,
+	iEventYear: 9999999
+},
+sEventSFX: "",
+isMission: false,
+missionDesc: "",
+tempTAG: "HOI4_WORLD_NEWS"
+}

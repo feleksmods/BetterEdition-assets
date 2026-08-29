@@ -1,0 +1,60 @@
+{
+sEventName: "Taiwan Massacre",
+sEventTag: "1787989768615fagogvdb",
+sEventPicture: "9.png",
+wasFired: false,
+wasTriedToRunOnce: false,
+repeatable: false,
+iCivID_Recipient: 0,
+event_PopUp: {
+	showPopUp: true,
+	sText: "taiwanmassacre.desc"
+},
+lTriggers: [
+	{
+		lConditions: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Conditions_CivExist",
+				conditionType: "AND",
+				iCivID: 68
+			}
+		],
+		triggerType: "AND"
+	}
+],
+lDecisions: [
+	{
+		sTitle: "A Sad Day for Taiwan",
+		lOutcomes: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_UpdateHappiness",
+				iCivID: 143,
+				lProvinces: [ 6711, 2758, 2757, 2776, 2761, 6708, 2774, 6710, 2759, 2760, 2756, 2775 ],
+				iValue: -50
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_UpdatePopulationPerc",
+				iCivID: 143,
+				lProvinces: [ 6708, 6711, 2776, 2775, 6710, 2759, 2758, 2757, 2756, 2774, 2761, 2760 ],
+				iValue: -6
+			}
+		],
+		iAIChance: 100,
+		sDesc: ""
+	}
+],
+eventDate_Since: {
+	iEventDay: 28,
+	iEventMonth: 2,
+	iEventYear: 1947
+},
+eventDate_Until: {
+	iEventDay: 1,
+	iEventMonth: 1,
+	iEventYear: 9999999
+},
+sEventSFX: "",
+isMission: false,
+missionDesc: "",
+tempTAG: "HOI4_WORLD_NEWS"
+}
