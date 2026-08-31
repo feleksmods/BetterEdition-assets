@@ -1,7 +1,7 @@
 {
 sEventName: "Madagascar Rebellion",
 sEventTag: "1787998178751mrfrjefl",
-sEventPicture: "12.png",
+sEventPicture: "13.png",
 wasFired: false,
 wasTriedToRunOnce: false,
 repeatable: false,

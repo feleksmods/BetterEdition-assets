@@ -1,0 +1,90 @@
+{
+sEventName: "The Foundation of Cominform",
+sEventTag: "1788171210863qdrhdqwz",
+sEventPicture: "12.png",
+wasFired: false,
+wasTriedToRunOnce: false,
+repeatable: false,
+iCivID_Recipient: 0,
+event_PopUp: {
+	showPopUp: true,
+	sText: "cominform.desc"
+},
+lTriggers: [
+	{
+		lConditions: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Conditions_CivExist",
+				conditionType: "AND",
+				iCivID: 118
+			}
+		],
+		triggerType: "AND"
+	}
+],
+lDecisions: [
+	{
+		sTitle: "Red will unite us.",
+		lOutcomes: [
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_NonAggression",
+				iCivID: 123,
+				iCivID2: 119,
+				iValue: 39
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_NonAggression",
+				iCivID: 123,
+				iCivID2: 49,
+				iValue: 39
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_NonAggression",
+				iCivID: 123,
+				iCivID2: 9,
+				iValue: 39
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_NonAggression",
+				iCivID: 123,
+				iCivID2: 46,
+				iValue: 39
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_NonAggression",
+				iCivID: 123,
+				iCivID2: 47,
+				iValue: 39
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_NonAggression",
+				iCivID: 123,
+				iCivID2: 15,
+				iValue: 39
+			},
+			{
+				class: "age.of.civilizations2.jakowski.lukasz.Event_Outcome_NonAggression",
+				iCivID: 123,
+				iCivID2: 8,
+				iValue: 39
+			}
+		],
+		iAIChance: 100,
+		sDesc: ""
+	}
+],
+eventDate_Since: {
+	iEventDay: 5,
+	iEventMonth: 10,
+	iEventYear: 1947
+},
+eventDate_Until: {
+	iEventDay: 1,
+	iEventMonth: 1,
+	iEventYear: 9999999
+},
+sEventSFX: "",
+isMission: false,
+missionDesc: "",
+tempTAG: "HOI4_WORLD_NEWS"
+}
