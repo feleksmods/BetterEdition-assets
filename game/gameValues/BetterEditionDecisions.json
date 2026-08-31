@@ -1214,6 +1214,36 @@
 					"value": 4
 				}
 			]
+		},
+		{
+			"id": "BE_DEC_PRESS_CENSORSHIP",
+			"nameKey": "BE_DEC_PRESS_CENSORSHIP_Name",
+			"descKey": "BE_DEC_PRESS_CENSORSHIP_Desc",
+			"icon": "propaganda",
+			"type": "PERMANENT",
+			"conditions": [
+				{
+					"condition": "PARLIAMENT_EXISTS",
+					"value": 0
+				}
+			],
+			"cooldownTurns": 25,
+			"costs": [
+				{
+					"resource": "GOLD",
+					"value": 1500
+				}
+			],
+			"effects": [
+				{
+					"type": "PARLIAMENT_OPPOSITION_SEATS_PERCENT",
+					"value": 25
+				},
+				{
+					"type": "HAPPINESS_PERCENT",
+					"value": -4
+				}
+			]
 		}
 	]
 }
