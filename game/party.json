@@ -1,0 +1,109 @@
+{
+  "parliament": {
+    "seats": 400,
+    "majority": 201
+  },
+  "rules": {
+    "maxSpectrumDistance": 2,
+    "forbidOppositeExtremes": true,
+    "allowMinorityGovernment": false,
+    "confidenceThreshold": 0.51
+  },
+  "parties": [
+    {
+      "id": "far_left",
+      "name": "Partito Estrema Sinistra",
+      "spectrum": -3,
+      "color": "#E53935",
+      "voteShare": 0.12,
+      "discipline": 0.85,
+      "vetoes": ["far_right", "right"]
+    },
+    {
+      "id": "left",
+      "name": "Partito Sinistra",
+      "spectrum": -2,
+      "color": "#FF5722",
+      "voteShare": 0.18,
+      "discipline": 0.75,
+      "vetoes": ["far_right"]
+    },
+    {
+      "id": "center_left",
+      "name": "Partito Centro-Sinistra",
+      "spectrum": -1,
+      "color": "#FF9800",
+      "voteShare": 0.22,
+      "discipline": 0.70,
+      "vetoes": []
+    },
+    {
+      "id": "center",
+      "name": "Partito Centrista",
+      "spectrum": 0,
+      "color": "#FFC107",
+      "voteShare": 0.15,
+      "discipline": 0.65,
+      "vetoes": []
+    },
+    {
+      "id": "center_right",
+      "name": "Partito Centro-Destra",
+      "spectrum": 1,
+      "color": "#8BC34A",
+      "voteShare": 0.20,
+      "discipline": 0.72,
+      "vetoes": []
+    },
+    {
+      "id": "right",
+      "name": "Partito Destra",
+      "spectrum": 2,
+      "color": "#4CAF50",
+      "voteShare": 0.09,
+      "discipline": 0.80,
+      "vetoes": ["far_left"]
+    },
+    {
+      "id": "far_right",
+      "name": "Partito Estrema Destra",
+      "spectrum": 3,
+      "color": "#009688",
+      "voteShare": 0.04,
+      "discipline": 0.90,
+      "vetoes": ["far_left", "left"]
+    }
+  ],
+  "coalitions": [
+    {
+      "id": "progressive_alliance",
+      "name": "Alleanza Progressista",
+      "parties": ["far_left", "left", "center_left"],
+      "priority": 3
+    },
+    {
+      "id": "center_left_coalition",
+      "name": "Coalizione Centro-Sinistra",
+      "parties": ["center_left", "center"],
+      "priority": 2
+    },
+    {
+      "id": "grand_coalition",
+      "name": "Grande Coalizione",
+      "parties": ["center_left", "center", "center_right"],
+      "priority": 1
+    },
+    {
+      "id": "center_right_coalition",
+      "name": "Coalizione Centro-Destra",
+      "parties": ["center", "center_right"],
+      "priority": 2
+    },
+    {
+      "id": "conservative_alliance",
+      "name": "Alleanza Conservatrice",
+      "parties": ["center_right", "right", "far_right"],
+      "priority": 3
+    }
+  ]
+}
