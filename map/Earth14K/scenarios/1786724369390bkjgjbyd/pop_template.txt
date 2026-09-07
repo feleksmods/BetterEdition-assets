@@ -6,17 +6,17 @@ Netherlands
 Switzerland
 Liechtenstein
 Czechoslovakia
-Hungary
+Hungarian People's Republic
 France
 Andorra
 Monaco
 San Marino
 Italy
-Yugoslavia
+Democratic Federal Yugoslavia
 Portugal
 Iraq
 Sweden
-Norway
+Kingdom of Norway
 Finland
 Denmark
 United States of America
@@ -32,7 +32,7 @@ Nicaragua
 Costa Rica
 Panama
 Uruguay
-Brazil
+United States of Brazil
 Paraguay
 Bolivia
 Peru
@@ -43,20 +43,20 @@ Colombia
 Venezuela
 Union of South Africa
 Greece
-Albania
-Bulgaria
+People's Socialist Republic of Albania
+People's Republic of Bulgaria
 Türkiye
-Romania
+Socialist Republic of Romania
 Yemen
 Oman
 Abyssinia
 Saudi Arabia
 Afghanistan
 Bhutan
-Mongolia
-China
+Mongolian People's Republic
+Chinese People's Republic
 Siam
-Philippines
+Free Philippine Republic
 New Zealand
 Australia
 Tibet
@@ -65,7 +65,7 @@ Rwanda
 Burundi
 Morocco
 Tunisia
-Algeria
+French Algeria
 Madagascar
 Mayotte
 Comoros
@@ -120,7 +120,7 @@ Polish People's Republic
 Spain
 Lebanon
 Jordan
-Soviet Union
+Russian Soviet Federative Socialist Republic
 Myanmar
 Indonesia
 Pahlavi
@@ -222,7 +222,7 @@ Kuwait
 Dutch East Indies
 Eritrea
 French West Africa
-French Equatorial Africa
+French Equatorial Africa_@
 French Indochina
 Vietnam
 Israel
@@ -258,3 +258,17 @@ Benin
 Togo
 Ivory Coast
 Madagascar
+Ukrainian Soviet Socialist Republic
+Moldavian Soviet Socialist Republic
+Belarusian Soviet Socialist Republic
+Latvia
+Lithuania
+Estonia
+Azerbaijan
+Armenia
+Georgia
+Uzbek Soviet Socialist Republic
+Kyrgyz Soviet Socialist Republic
+Tajikistan
+Turkmen Soviet Socialist Republic
+Kazakh Soviet Socialist Republic
