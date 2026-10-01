@@ -1,0 +1,5 @@
+{
+        ENABLE_JSON_LEADERS: false,
+	LEADER_MAX_VALUE: 1.0,
+	LEADER_MIN_VALUE: -1.00,
+}
